@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-taskmanager" version="1.0">
+  <property name="columns" type="empty">
+    <property name="column-rss" type="bool" value="true"/>
+    <property name="column-cpu" type="bool" value="true"/>
+    <property name="column-uid" type="bool" value="false"/>
+  </property>
+  <property name="window-width" type="int" value="940"/>
+  <property name="window-height" type="int" value="288"/>
+</channel>

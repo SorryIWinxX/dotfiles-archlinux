@@ -1,0 +1,46 @@
+[2022-08-27 22:03:10.164] [exthost] [info] Extension host with pid 27958 started
+[2022-08-27 22:03:10.311] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-08-27 22:03:10.338] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-27 22:03:10.342] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-27 22:03:10.347] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-27 22:03:10.352] [exthost] [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+[2022-08-27 22:03:10.401] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+[2022-08-27 22:03:10.425] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2022-08-27 22:03:10.486] [exthost] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion, startup: true, activationEvent: '*'
+[2022-08-27 22:03:10.617] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-27 22:03:10.636] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-27 22:03:10.755] [exthost] [info] Eager extensions activated
+[2022-08-27 22:03:10.756] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-08-27 22:03:10.794] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-27 22:03:10.803] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-27 22:03:10.805] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-27 22:16:44.715] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-27 22:16:45.236] [exthost] [error] TypeError: r.some is not a function
+    at Function.saveToDisk (/home/h4ck4u/.vscode/extensions/vscodevim.vim-1.23.2/src/register/register.ts:326:30)
+    at Object.e.deactivate (/home/h4ck4u/.vscode/extensions/vscodevim.vim-1.23.2/extension.ts:65:18)
+    at w._deactivate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:13087)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:10645
+    at Array.map (<anonymous>)
+    at w._deactivateAll (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:10632)
+    at w.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:11014)
+    at w.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:101:620)
+    at m (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:36671)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:34616
+    at w.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+    at v.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+    at p.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+    at a.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:18976)
+    at r._receiveMessage (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:23563)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:21097
+    at w.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+    at v.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+    at p.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+    at p.acceptChunk (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:15807)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:14937
+    at Socket.R (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:13763)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+[2022-08-27 22:16:45.237] [exthost] [info] Extension host with pid 27958 exiting with code 0

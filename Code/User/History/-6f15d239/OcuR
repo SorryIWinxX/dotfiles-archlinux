@@ -1,0 +1,1 @@
+mongoDB_URI=mongodb+srv://<username>:<password>@cluster0.n6urydm.mongodb.net/hypermotorsDB?retryWrites=true&w=majority

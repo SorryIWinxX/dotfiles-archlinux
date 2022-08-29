@@ -1,0 +1,4 @@
+[2022-08-28 19:57:49.864] [renderer1] [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue
+[2022-08-28 20:10:20.233] [renderer1] [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue
+[2022-08-28 20:10:38.502] [renderer1] [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue
+[2022-08-28 20:12:58.811] [renderer1] [info] Settings Sync: Updated current session 45d85999-d100-4463-be33-9f3ea0452438

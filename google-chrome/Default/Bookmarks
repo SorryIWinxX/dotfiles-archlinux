@@ -1,0 +1,55 @@
+{
+   "checksum": "13091df0a4e0c74f9a2a2cd957457744",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13281830049120361",
+            "guid": "67033d04-1f17-4555-af07-58f709c4ac17",
+            "id": "5",
+            "name": "i",
+            "type": "url",
+            "url": "https://help.steampowered.com/es/wizard/HelpWithLoginInfoReset/?s=3170678783650521982&account=237707787&reset=1&issueid=406"
+         }, {
+            "date_added": "13295397431935555",
+            "guid": "3312d1d5-8d5f-4ce4-bded-210216923e8e",
+            "id": "6",
+            "name": "Learn to Code — For Free — Coding Courses for Busy People",
+            "type": "url",
+            "url": "https://www.freecodecamp.org/"
+         }, {
+            "date_added": "13302666014191619",
+            "guid": "12f08cb4-efff-4372-8025-e11b6f605172",
+            "id": "7",
+            "name": "WhatsApp",
+            "type": "url",
+            "url": "https://web.whatsapp.com/"
+         } ],
+         "date_added": "13303391781190507",
+         "date_modified": "13302666014191619",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13303391781190509",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13303391781190509",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "Cv4BCt0BCIiBAhLWARI8CAISOAoGCgJibRABEDMaEgmA/9zmVucFACGA/9zmVucFADIYChYIAhGjzXn3VucFABgAIQAAAAAAAAAAEjwIAhI4CgYKAmJkEAAQMxoSCYD/3OZW5wUAIYD/3OZW5wUAMhgKFggCEaPNefdW5wUAGAAhAAAAAAAAAAAgAEjYpqO5rjBw2Kajua4wkgFHCkUKFmFubm90YXRpb25fY2hyb21lX3N5bmMSBTUxIWJkGhIJgJSX8VbnBQARgJSX8VbnBQApv91591bnBQAwgKnejO/q+QISACABKhhOdVhheWxFTUV0cGVXMGlKRS9iZm1nPT0SwwEIAhK+AQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRJmWjpBRHF0QVp5a0VRRzdQbTZ2NXVveW94SEg0T3ZMdU5VTVQ0VUtRMVNBVnBOa0dpU3ZOSWw4cDNiRGR4ZFJMOG15VjRTNFlGbS96LzZIVFNtbnRYdGV6R2hQOUhLb2JZY09qdz09GAAgACgAMNqArYSzmfkCOABAAEocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAAS7AEIBxLnAQoccFFtaThFUEpHRTFrRUZaRnNqdW15SWFtOC8wPRJmWjpBRHF0QVp6Vml6OGs5aXhwRUhXYURrTGhPR3U5T0xSdkJVVzVKRTZLY1JibjJ2K0ltbllQdlBTZmhqeVNTQTRVRm1uZUgrcGRBeTVqdlhBV216OEtLYXVLQUV3cjZRdHJGZz09GAAgAigCMOTwxcrN6vkCOO+L4Z+hMECRkfi0rjBKHDdjay9hZVNVc3V3SnBBSHVBSlNhZloyY1h3QT1aHyIdszZBakxPOWIwMFArZmh0QjVkYitSMWJpR3hYST1l/pEr1xLrAQgGEuYBChw0akFjN01UMlJQZ2lsaWU5L284ME02UUp2aTQ9EmZaOkFEcXRBWnpWaXo4azlpeHBFSFdhRGtMaE9HdTlERldyTUF5WE82RGJQMVA1bmtFMnRubVJwOHZnSnBxSmdPR283Q3l0MThhaTUzOENRZDZMTXBFVGZ2MGcxRmxRUUN6MDZBPT0YACACKAIw5s3MhLOZ+QI4/4TqlYYwQKj07PmjMEocaWxUUVJBUENJZ1JSbC9HS0tnKzAycG14cVpjPVoeIhxneis2MW1STUZLYkNmUkUrREtjUmZWTk5VNTA9ZXeJIu0SwwEIAxK+AQocbmpnRHU4OGVDcnZYcDg2cEQ3ZkhHY3FGcDg4PRJmWjpBRHF0QVp4VHplYkJEelpVcjRsbFc3cjR2Z2NyeWlhMDFzOTQ1dTJFbmFwQk5KRjZUVW1rNDZPOUNkMmtBcjNIcFBlU2JuQWgrbVNteCtWcFE5cTJFb0pLaFhINkU4UExBUT09GAAgACgAMNqArYSzmfkCOABAAEoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAAAS6wEIBRLmAQocNzFUZW1rTjVCZVo5dHc2L290YklLOTcwYWtRPRJmWjpBRHF0QVp6Vml6OGs5aXhwRUhXYURrTGhPR3U5NTYxWFVETlB1azEwZE9TOUJtQmxHa2NqeWdBTVNOWG1UM2xmTUduMTBMdHdDdCtaMXdFeHQ2V0dFQ2x1RVZQUDA5WTFVdz09GAAgACgAMN264Ybgm/UCOODastDTL0Dg2rLQ0y9KHDRpQTdZSzJrWVhYSkN0RmxGRHNFeVNZajlYTT1aHiIcMGJQZmIzNWlsdGdhK0ExKy9MMnhDL0g2cHlJPWUAAAAAEqsBCAESpgEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0STlo6QURxdEFad1laV0JHM3ZEZEU0bDUzOXZqODc2a0JlN2gzNmg1aVd1anBXWGFnU05zKzN5QmpSamk3ekJ6Qnd1MXBjRHdWaWszaXBUeRgAIAAoADDagK2Es5n5AjgAQABKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAMAE4AA==",
+   "version": 1
+}

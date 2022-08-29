@@ -1,0 +1,27 @@
+[2022-08-27 22:17:47.818] [sharedprocess] [info] Starting worker process with pid 30558 (type: fileWatcher, window: 1).
+[2022-08-27 22:33:05.683] [sharedprocess] [info] Worker process with pid 30558 terminated normally (type: fileWatcher, window: 1).
+[2022-08-27 22:33:06.887] [sharedprocess] [info] Starting worker process with pid 33362 (type: fileWatcher, window: 1).
+[2022-08-27 22:41:09.041] [sharedprocess] [info] Getting Manifest... vscode-icons-team.vscode-icons
+[2022-08-27 22:41:09.054] [sharedprocess] [info] Installing extension: vscode-icons-team.vscode-icons
+[2022-08-27 22:41:10.851] [sharedprocess] [info] Downloaded extension: vscode-icons-team.vscode-icons /home/h4ck4u/.config/Code/CachedExtensionVSIXs/vscode-icons-team.vscode-icons-11.15.0
+[2022-08-27 22:41:12.507] [sharedprocess] [info] Extracted extension to /home/h4ck4u/.vscode/extensions/.5b2a5dfe-0d92-4ca1-b901-6c0cd5fb801b: vscode-icons-team.vscode-icons
+[2022-08-27 22:41:12.516] [sharedprocess] [info] Renamed to /home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0
+[2022-08-27 22:41:12.519] [sharedprocess] [info] Extracting completed. vscode-icons-team.vscode-icons
+[2022-08-27 22:41:12.521] [sharedprocess] [info] Extension installed successfully: vscode-icons-team.vscode-icons
+[2022-08-27 22:42:35.837] [sharedprocess] [info] Getting Manifest... tal7aouy.icons
+[2022-08-27 22:42:35.874] [sharedprocess] [info] Installing extension: tal7aouy.icons
+[2022-08-27 22:42:37.012] [sharedprocess] [info] Downloaded extension: tal7aouy.icons /home/h4ck4u/.config/Code/CachedExtensionVSIXs/tal7aouy.icons-3.4.0
+[2022-08-27 22:42:37.861] [sharedprocess] [info] Extracted extension to /home/h4ck4u/.vscode/extensions/.a7637ba4-c0b4-4c25-b214-7805916e578b: tal7aouy.icons
+[2022-08-27 22:42:37.866] [sharedprocess] [info] Renamed to /home/h4ck4u/.vscode/extensions/tal7aouy.icons-3.4.0
+[2022-08-27 22:42:37.869] [sharedprocess] [info] Extracting completed. tal7aouy.icons
+[2022-08-27 22:42:37.870] [sharedprocess] [info] Extension installed successfully: tal7aouy.icons
+[2022-08-27 22:43:46.077] [sharedprocess] [info] Getting Manifest... miguelsolorio.fluent-icons
+[2022-08-27 22:43:46.109] [sharedprocess] [info] Installing extension: miguelsolorio.fluent-icons
+[2022-08-27 22:43:48.099] [sharedprocess] [info] Downloaded extension: miguelsolorio.fluent-icons /home/h4ck4u/.config/Code/CachedExtensionVSIXs/miguelsolorio.fluent-icons-0.0.18
+[2022-08-27 22:43:48.286] [sharedprocess] [info] Extracted extension to /home/h4ck4u/.vscode/extensions/.4922617a-87ec-4192-87fb-e6650c3b2c9d: miguelsolorio.fluent-icons
+[2022-08-27 22:43:48.291] [sharedprocess] [info] Renamed to /home/h4ck4u/.vscode/extensions/miguelsolorio.fluent-icons-0.0.18
+[2022-08-27 22:43:48.294] [sharedprocess] [info] Extracting completed. miguelsolorio.fluent-icons
+[2022-08-27 22:43:48.296] [sharedprocess] [info] Extension installed successfully: miguelsolorio.fluent-icons
+[2022-08-27 22:44:03.910] [sharedprocess] [info] Uninstalling extension: miguelsolorio.fluent-icons@0.0.18
+[2022-08-27 22:44:04.264] [sharedprocess] [info] Detected extension removed from another source miguelsolorio.fluent-icons
+[2022-08-27 22:44:04.589] [sharedprocess] [info] Successfully uninstalled extension: miguelsolorio.fluent-icons@0.0.18

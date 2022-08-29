@@ -1,0 +1,93 @@
+<application>
+  <component name="DynamicPluginEnabler">
+    <trackers>
+      <map>
+        <entry key="2DfWV81ZjnDEzQ39AkFZcWnnwc1">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2DfaRjLXEnCzYN2H0P5ijNqZcJi">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="2Dfd3An2E9RPYREpJL3fpbIxfZY">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+      </map>
+    </trackers>
+  </component>
+  <component name="JdkInstallerHistory">
+    <option name="installedItems">
+      <installed-jdk>
+        <option name="fullText" value="Oracle OpenJDK 18.0.2.1" />
+        <option name="installDir" value="$USER_HOME$/.jdks/openjdk-18.0.2.1" />
+        <option name="javaHomeDir" value="$USER_HOME$/.jdks/openjdk-18.0.2.1" />
+        <option name="sha256" value="3bfdb59fc38884672677cebca9a216902d87fe867563182ae8bc3373a65a2ebd" />
+        <option name="url" value="https://download.java.net/java/GA/jdk18.0.2.1/db379da656dc47308e138f21b33976fa/1/GPL/openjdk-18.0.2.1_linux-x64_bin.tar.gz" />
+        <option name="versionText" value="18.0.2.1" />
+      </installed-jdk>
+    </option>
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="Monospaced" />
+    <option name="fontScale" value="1.0" />
+    <option name="fontSize" value="15.0" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "CWM_LOGGING_VERSION": "1",
+    "MemberChooser.copyJavadoc": "false",
+    "MemberChooser.showClasses": "true",
+    "NonModalCommitCustomization.IsApplied": "true",
+    "RunOnceActivity.se.text.search": "true",
+    "appcds.runOnSecondStart": "IU-222.3739.54-46ca91a788d5caca5d5653362985e5aa2721d70f4d405b6980c994c844b7338c",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "bundled.plugins.list.saved.version": "IU-222.3739.54",
+    "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "IntelliJ",
+    "com.intellij.ide.wizard.NewProjectWizardLanguageStep.selectedStep": "Java",
+    "defaultJdkConfigured": "true",
+    "defaultpackageserviceconfig.fulltext": "https://package-search.services.jetbrains.com/api/search/idea/fulltext",
+    "defaultpackageserviceconfig.suggest": "https://package-search.services.jetbrains.com/api/search/idea/suggest",
+    "defaultpackageserviceconfig.updated.ts": "1661090650879",
+    "eclipse.projects.detected": "",
+    "evlsprt3.222": "23",
+    "file.gist.reindex.count": "19",
+    "fileTypeChangedCounter": "1",
+    "fontSizeToResetConsole": "15.0",
+    "fontSizeToResetEditor": "15.0",
+    "gotit.previous.run": "IU-222.3739.54",
+    "ide.memory.adjusted": "true",
+    "installed.kotlin.plugin.version": "222-1.7.10-release-334-IJ3739.54",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/home/h4ck4u/Downloads/demo",
+    "previousColorScheme": "_@user_Darcula",
+    "project.wizard.group": "newWizard.com.intellij.ide.wizard.NewProjectBuilder",
+    "registry.to.advanced.settings.migration.build": "IU-222.3739.54",
+    "tasks.pass.word.conversion.enforced": "true",
+    "ts.lib.d.ts.version": "4.7.4"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/h4ck4u/Downloads/demo"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector",
+      "com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+</application>

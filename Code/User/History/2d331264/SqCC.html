@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="header" class="layout">
+
+        <h2>Header section</h2>
+
+    </div>
+
+    <div id="main" class="layout">
+
+        <section id="left"></section>
+            <ul class="left-menu">
+                <li>Products</li>
+                <li>Categories</li>
+                <li>Orders</li>
+            </ul>
+
+        <section id="center">
+            <h3>hellow Word</h3>
+            <input id="fullName" type="text"> 
+        </section>
+
+        <section id="right">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </section>    
+    </div>
+    
+    <div id="footer" class="layout">
+        @All rights reserved.
+    </div>
+
+
+    <script>
+        let mainElement = document.getElementById('main');
+        console.log(mainElement);
+
+
+        let rightElement = document.getElementById('right');
+        console.log(rightElement.innerHTML);
+
+        let layoutElement = document.getElementsByClassName('layout');
+        console.log(layoutElement);
+
+        console.log(layoutElement[2]);
+
+        let tagElements = document.getElementsByTagName('li');
+
+        console.log(tagElements);
+
+        tagElements[2].innerHTML = "my Orders"
+
+        console.log(tagElements[2]);
+
+
+    </script>
+</body>
+</html>

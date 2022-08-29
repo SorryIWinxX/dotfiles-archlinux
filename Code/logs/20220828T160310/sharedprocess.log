@@ -1,0 +1,8 @@
+[2022-08-28 16:03:14.529] [sharedprocess] [info] Starting worker process with pid 3281 (type: fileWatcher, window: 1).
+[2022-08-28 16:03:16.953] [sharedprocess] [info] Getting Manifest... vscode-icons-team.vscode-icons
+[2022-08-28 16:03:17.482] [sharedprocess] [info] Installing extension: vscode-icons-team.vscode-icons
+[2022-08-28 16:03:18.879] [sharedprocess] [info] Downloaded extension: vscode-icons-team.vscode-icons /home/h4ck4u/.config/Code/CachedExtensionVSIXs/vscode-icons-team.vscode-icons-11.16.0
+[2022-08-28 16:03:20.497] [sharedprocess] [info] Extracted extension to /home/h4ck4u/.vscode/extensions/.7ebff3c9-eac5-4d03-b3db-03989dc077ef: vscode-icons-team.vscode-icons
+[2022-08-28 16:03:20.503] [sharedprocess] [info] Renamed to /home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.16.0
+[2022-08-28 16:03:20.507] [sharedprocess] [info] Extracting completed. vscode-icons-team.vscode-icons
+[2022-08-28 16:03:20.511] [sharedprocess] [info] Extension installed successfully: vscode-icons-team.vscode-icons

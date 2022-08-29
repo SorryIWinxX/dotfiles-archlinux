@@ -1,0 +1,25 @@
+[Default Applications]
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/gitkraken=GitKraken.desktop
+x-scheme-handler/notion=notion-app.desktop
+text/html=firefox-developer-edition.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+x-scheme-handler/eclipse+command x-scheme-handler/eclipse+mpc=_usr_lib_eclipse_.desktop
+x-scheme-handler/postman=Postman.desktop
+
+[Added Associations]
+x-scheme-handler/http=xfce4-web-browser.desktop;
+x-scheme-handler/https=xfce4-web-browser.desktop;
+application/zip=userapp-unzip-F76CP1.desktop;
+text/html=visual-studio-code.desktop;google-chrome.desktop;firefox-developer-edition.desktop;
+text/css=visual-studio-code.desktop;
+application/javascript=nvim.desktop;visual-studio-code.desktop;
+text/x-matlab=visual-studio-code.desktop;
+text/x-python=visual-studio-code.desktop;
+application/vnd.openxmlformats-officedocument.presentationml.slideshow=ms-office-online.desktop;
+application/pdf=firefox-developer-edition.desktop;google-chrome.desktop;libreoffice-draw.desktop;
+text/markdown=nvim.desktop;
+inode/directory=visual-studio-code.desktop;jetbrains-idea.desktop;
+text/x-modelica=nvim.desktop;

@@ -1,0 +1,72 @@
+# Shades of Purple Alacritty
+# https://github.com/ahmadawais/shades-of-purple-alacritty
+
+# Colors
+colors:
+  bright:
+    black: '#555555'
+    blue: '#589df6'
+    cyan: '#3979bc'
+    green: '#35bb9a'
+    magenta: '#e75699'
+    red: '#fa8c8f'
+    white: '#ffffff'
+    yellow: '#ffff55'
+  cursor:
+    cursor: '#bbbbbb'
+    text: '#ffffff'
+  normal:
+    black: '#000000'
+    blue: '#589df6'
+    cyan: '#1f9ee7'
+    green: '#21b089'
+    magenta: '#944d95'
+    red: '#f9555f'
+    white: '#bbbbbb'
+    yellow: '#fef02a'
+  primary:
+    background: '#1d2837'
+    foreground: '#ffffff'
+  selection:
+    background: '#b5d5ff'
+    text: '#000000'
+font:
+  normal:
+    family: Hack Nerd Font
+    style: Regular
+  bold:
+    family: Hack Nerd Font
+    style: Bold
+  italic:
+    family: Hack Nerd Font
+    style: Italic
+  bold_italic:
+    family: Hack Nerd Font
+    style: Bold Italic
+  size: 12.0
+  use_thin_strokes: true
+
+window:
+  opacity: 0.6
+cursor:
+  # Cursor style
+  style:
+    # Cursor shape
+    #
+    # Values for `shape`:
+    #   - ▇ Block
+    #   - _ Underline
+    #   - | Beam
+    shape: Beam
+
+    # Cursor blinking state
+    #
+    # Values for `blinking`:
+    #   - Never: Prevent the cursor from ever blinking
+    #   - Off: Disable blinking by default
+    #   - On: Enable blinking by default
+    #   - Always: Force the cursor to always blink
+    blinking: Always
+    blink_interval: 350
+    unfocused_hollow: false
+theme: Galaxy

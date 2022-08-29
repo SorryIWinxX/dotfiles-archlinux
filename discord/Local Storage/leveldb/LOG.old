@@ -1,0 +1,23 @@
+2022/08/22-20:11:55.087 62d Reusing MANIFEST /home/h4ck4u/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/08/22-20:11:55.098 62d Recovering log #59
+2022/08/22-20:11:55.105 62d Level-0 table #63: started
+2022/08/22-20:11:55.125 62d Level-0 table #63: 1106108 bytes OK
+2022/08/22-20:11:55.139 62d Delete type=0 #59
+2022/08/22-20:13:57.464 a6d Level-0 table #66: started
+2022/08/22-20:13:57.505 a6d Level-0 table #66: 1107757 bytes OK
+2022/08/22-20:13:57.508 a6d Delete type=0 #64
+2022/08/22-21:26:57.462 23e5 Level-0 table #68: started
+2022/08/22-21:26:57.466 23e5 Level-0 table #68: 8912 bytes OK
+2022/08/22-21:26:57.469 23e5 Delete type=0 #65
+2022/08/22-22:40:57.463 5c5f Level-0 table #70: started
+2022/08/22-22:40:57.467 5c5f Level-0 table #70: 8301 bytes OK
+2022/08/22-22:40:57.470 5c5f Delete type=0 #67
+2022/08/22-22:40:57.470 5c5f Compacting 4@0 + 1@1 files
+2022/08/22-22:40:57.498 5c5f Generated table #71@0: 123 keys, 1609153 bytes
+2022/08/22-22:40:57.498 5c5f Compacted 4@0 + 1@1 files => 1609153 bytes
+2022/08/22-22:40:57.499 5c5f compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/08/22-22:40:57.500 5c5f Delete type=2 #68
+2022/08/22-22:40:57.500 5c5f Delete type=2 #70
+2022/08/22-22:40:57.500 5c5f Delete type=2 #63
+2022/08/22-22:40:57.501 5c5f Delete type=2 #61
+2022/08/22-22:40:57.501 5c5f Delete type=2 #66

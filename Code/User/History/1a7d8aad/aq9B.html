@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setTimeOut function JS</title>
+</head>
+<body id="bodyTag">
+    <h2>setTime function</h2>
+
+    <script>
+        function display(empName, empDept) {
+            console.log("Name: " + empName + " & Department: " + empDept );
+
+        }
+
+       // display("jhon", "phy");
+       // display("peter", "chemistry");
+
+       // setTimeout(display,4000,"jhon","phy");
+
+        setInterval(function(){
+            document.querySelector('#bodyTag').style.background="blue"
+        }, 6000)
+
+
+        let timeoutId = setTimeout(display,10000,"jhon","phy");
+        console.log(`Timeout id is: ${timeoutId}`)
+
+        clearTimeout(timeoutId);
+    </script>
+</body>
+</html>

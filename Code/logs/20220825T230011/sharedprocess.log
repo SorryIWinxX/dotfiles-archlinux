@@ -1,0 +1,16 @@
+[2022-08-25 23:00:14.950] [sharedprocess] [info] Starting worker process with pid 46328 (type: fileWatcher, window: 1).
+[2022-08-25 23:00:17.496] [sharedprocess] [info] Getting Manifest... beardedbear.beardedtheme
+[2022-08-25 23:00:17.497] [sharedprocess] [info] Getting Manifest... ms-python.vscode-pylance
+[2022-08-25 23:00:18.005] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2022-08-25 23:00:18.061] [sharedprocess] [info] Installing extension: beardedbear.beardedtheme
+[2022-08-25 23:00:22.466] [sharedprocess] [info] Downloaded extension: beardedbear.beardedtheme /home/h4ck4u/.config/Code/CachedExtensionVSIXs/beardedbear.beardedtheme-7.3.0
+[2022-08-25 23:00:22.613] [sharedprocess] [info] Extracted extension to /home/h4ck4u/.vscode/extensions/.0221e64f-c8d3-4eb4-83a7-b3396e3129fa: beardedbear.beardedtheme
+[2022-08-25 23:00:22.618] [sharedprocess] [info] Renamed to /home/h4ck4u/.vscode/extensions/beardedbear.beardedtheme-7.3.0
+[2022-08-25 23:00:22.619] [sharedprocess] [info] Extracting completed. beardedbear.beardedtheme
+[2022-08-25 23:00:22.624] [sharedprocess] [info] Extension installed successfully: beardedbear.beardedtheme
+[2022-08-25 23:00:25.686] [sharedprocess] [info] Downloaded extension: ms-python.vscode-pylance /home/h4ck4u/.config/Code/CachedExtensionVSIXs/ms-python.vscode-pylance-2022.8.40
+[2022-08-25 23:00:33.086] [sharedprocess] [info] Extracted extension to /home/h4ck4u/.vscode/extensions/.6975bc4e-c84d-466d-bac4-68642f5e3cc3: ms-python.vscode-pylance
+[2022-08-25 23:00:33.098] [sharedprocess] [info] Renamed to /home/h4ck4u/.vscode/extensions/ms-python.vscode-pylance-2022.8.40
+[2022-08-25 23:00:33.102] [sharedprocess] [info] Extracting completed. ms-python.vscode-pylance
+[2022-08-25 23:00:33.111] [sharedprocess] [info] Extension installed successfully: ms-python.vscode-pylance
+[2022-08-25 23:40:23.989] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
