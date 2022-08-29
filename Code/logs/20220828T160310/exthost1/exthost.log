@@ -1,0 +1,38 @@
+[2022-08-28 16:03:14.237] [exthost] [info] Extension host with pid 3236 started
+[2022-08-28 16:03:14.338] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-08-28 16:03:14.361] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-28 16:03:14.365] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-28 16:03:14.368] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-28 16:03:14.372] [exthost] [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+[2022-08-28 16:03:14.443] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+[2022-08-28 16:03:14.469] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: true, activationEvent: '*'
+[2022-08-28 16:03:14.501] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2022-08-28 16:03:14.557] [exthost] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion, startup: true, activationEvent: '*'
+[2022-08-28 16:03:14.769] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-28 16:03:14.799] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-28 16:03:14.937] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-08-28 16:03:15.985] [exthost] [info] Eager extensions activated
+[2022-08-28 16:03:16.013] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-28 16:03:16.019] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-28 16:03:16.022] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-28 16:23:45.102] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-08-28 16:23:45.114] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-08-28 16:23:45.245] [exthost] [info] ExtensionService#_doActivateExtension humao.rest-client, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-08-28 16:23:45.623] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2022-08-28 16:36:59.058] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-28 16:36:59.072] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-28 16:36:59.128] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-28 18:16:00.248] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-28 18:16:00.795] [exthost] [error] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 't'
+    |     property '_readableState' -> object with constructor 'M'
+    |     property 'pipes' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 't.ConsoleForElectron'
+    --- property 'parent' closes the circle
+    at JSON.stringify (<anonymous>)
+    at /home/h4ck4u/.vscode/extensions/vscodevim.vim-1.23.2/src/register/register.ts:333:16
+    at process.async (node:internal/process/task_queues:96:5)
+    at Object.e.deactivate (/home/h4ck4u/.vscode/extensions/vscodevim.vim-1.23.2/extension.ts:64:8)
+    at async Promise.all (index 20)
+    at w._deactivateAll (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:10669)
+[2022-08-28 18:16:00.799] [exthost] [info] Extension host with pid 3236 exiting with code 0

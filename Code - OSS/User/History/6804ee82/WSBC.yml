@@ -1,0 +1,65 @@
+# Shades of Purple Alacritty
+# https://github.com/ahmadawais/shades-of-purple-alacritty
+
+# Colors
+colors:
+    # Default colors
+    primary:
+        background: '#1E1E3F'
+        foreground: '#FFFFFF'
+
+    # Colors the cursor will use if `custom_cursor_colors` is true
+    cursor:
+        text: '#1E1E3F'
+        cursor: '#FFFFFF'
+        shape: Beam
+        blinking: Off
+        blink-interval: 750
+
+
+    # Normal colors
+    normal:
+        black: '#000000'
+        red: '#D52822'
+        green: '#3DB72A'
+        yellow: '#FAD000'
+        blue: '#6943FF'
+        magenta: '#FF628C'
+        cyan: '#9EFFFF'
+        white: '#DBDBE0'
+
+    # Bright colors
+    bright:
+        black: '#5C5C61'
+        red: '#FF000D'
+        green: '#3AD900'
+        yellow: '#FAD000'
+        blue: '#6943FF'
+        magenta: '#FF628C'
+        cyan: '#9EFFFF'
+        white: '#FFFFFF'
+font:
+  normal:
+    family: Hack Nerd Font
+
+window:
+  opacity: 0.5
+cursor:
+  # Cursor style
+  style:
+    # Cursor shape
+    #
+    # Values for `shape`:
+    #   - ▇ Block
+    #   - _ Underline
+    #   - | Beam
+    shape: Beam
+
+    # Cursor blinking state
+    #
+    # Values for `blinking`:
+    #   - Never: Prevent the cursor from ever blinking
+    #   - Off: Disable blinking by default
+    #   - On: Enable blinking by default
+    #   - Always: Force the cursor to always blink
+    blinking: on

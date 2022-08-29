@@ -1,0 +1,107 @@
+[2022-08-28 19:57:50.770] [sharedprocess] [info] Starting worker process with pid 10500 (type: fileWatcher, window: 1).
+[2022-08-28 19:57:50.897] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.activateIcons.title.
+[2022-08-28 19:57:50.897] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.regenerateIcons.title.
+[2022-08-28 19:57:50.898] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.ngPreset.title.
+[2022-08-28 19:57:50.898] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.nestPreset.title.
+[2022-08-28 19:57:50.899] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.jsPreset.title.
+[2022-08-28 19:57:50.899] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.tsPreset.title.
+[2022-08-28 19:57:50.899] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.jsonPreset.title.
+[2022-08-28 19:57:50.900] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.hideFoldersPreset.title.
+[2022-08-28 19:57:50.900] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.foldersAllDefaultIconPreset.title.
+[2022-08-28 19:57:50.900] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.hideExplorerArrowsPreset.title.
+[2022-08-28 19:57:50.901] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.restoreIcons.title.
+[2022-08-28 19:57:50.901] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.resetProjectDetectionDefaults.title.
+[2022-08-28 19:57:50.901] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.title.
+[2022-08-28 19:57:50.902] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.dontShowNewVersionMessage.description.
+[2022-08-28 19:57:50.902] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.dontShowConfigManuallyChangedMessage.description.
+[2022-08-28 19:57:50.903] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.projectDetection.autoReload.description.
+[2022-08-28 19:57:50.903] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.projectDetection.disableDetect.description.
+[2022-08-28 19:57:50.903] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.presets.angular.description.
+[2022-08-28 19:57:50.903] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.presets.nestjs.description.
+[2022-08-28 19:57:50.904] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.presets.jsOfficial.description.
+[2022-08-28 19:57:50.904] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.presets.tsOfficial.description.
+[2022-08-28 19:57:50.904] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.presets.jsonOfficial.description.
+[2022-08-28 19:57:50.904] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.presets.hideFolders.description.
+[2022-08-28 19:57:50.904] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.presets.foldersAllDefaultIcon.description.
+[2022-08-28 19:57:50.905] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.presets.hideExplorerArrows.description.
+[2022-08-28 19:57:50.905] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.customIconFolderPath.description.
+[2022-08-28 19:57:50.905] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.associations.files.description.
+[2022-08-28 19:57:50.906] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.associations.folders.description.
+[2022-08-28 19:57:50.906] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.associations.fileDefault.file.description.
+[2022-08-28 19:57:50.906] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.associations.fileDefault.file_light.description.
+[2022-08-28 19:57:50.906] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.associations.folderDefault.folder.description.
+[2022-08-28 19:57:50.906] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.associations.folderDefault.root_folder.description.
+[2022-08-28 19:57:50.907] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.associations.folderDefault.folder_light.description.
+[2022-08-28 19:57:50.907] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.associations.folderDefault.root_folder_light.description.
+[2022-08-28 19:57:50.909] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.activateIcons.title.
+[2022-08-28 19:57:50.909] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.regenerateIcons.title.
+[2022-08-28 19:57:50.909] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.ngPreset.title.
+[2022-08-28 19:57:50.909] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.nestPreset.title.
+[2022-08-28 19:57:50.910] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.jsPreset.title.
+[2022-08-28 19:57:50.910] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.tsPreset.title.
+[2022-08-28 19:57:50.910] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.jsonPreset.title.
+[2022-08-28 19:57:50.911] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.hideFoldersPreset.title.
+[2022-08-28 19:57:50.911] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.foldersAllDefaultIconPreset.title.
+[2022-08-28 19:57:50.911] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.hideExplorerArrowsPreset.title.
+[2022-08-28 19:57:50.911] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.restoreIcons.title.
+[2022-08-28 19:57:50.912] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key command.resetProjectDetectionDefaults.title.
+[2022-08-28 19:57:50.912] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.title.
+[2022-08-28 19:57:50.912] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.dontShowNewVersionMessage.description.
+[2022-08-28 19:57:50.912] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.dontShowConfigManuallyChangedMessage.description.
+[2022-08-28 19:57:50.913] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.projectDetection.autoReload.description.
+[2022-08-28 19:57:50.913] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.projectDetection.disableDetect.description.
+[2022-08-28 19:57:50.913] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.presets.angular.description.
+[2022-08-28 19:57:50.914] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.presets.nestjs.description.
+[2022-08-28 19:57:50.914] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.presets.jsOfficial.description.
+[2022-08-28 19:57:50.914] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.presets.tsOfficial.description.
+[2022-08-28 19:57:50.914] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.presets.jsonOfficial.description.
+[2022-08-28 19:57:50.915] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.presets.hideFolders.description.
+[2022-08-28 19:57:50.915] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.presets.foldersAllDefaultIcon.description.
+[2022-08-28 19:57:50.915] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.presets.hideExplorerArrows.description.
+[2022-08-28 19:57:50.915] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.customIconFolderPath.description.
+[2022-08-28 19:57:50.915] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.associations.files.description.
+[2022-08-28 19:57:50.915] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.associations.folders.description.
+[2022-08-28 19:57:50.916] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.associations.fileDefault.file.description.
+[2022-08-28 19:57:50.916] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.associations.fileDefault.file_light.description.
+[2022-08-28 19:57:50.916] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.associations.folderDefault.folder.description.
+[2022-08-28 19:57:50.916] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.associations.folderDefault.root_folder.description.
+[2022-08-28 19:57:50.916] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.associations.folderDefault.folder_light.description.
+[2022-08-28 19:57:50.917] [sharedprocess] [warning] [/home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0]: Couldn't find message for key configuration.associations.folderDefault.root_folder_light.description.
+[2022-08-28 19:57:51.110] [sharedprocess] [info] Deleted from disk vscode-icons-team.vscode-icons /home/h4ck4u/.vscode/extensions/vscode-icons-team.vscode-icons-11.15.0
+[2022-08-28 20:10:18.526] [sharedprocess] [info] Worker process with pid 10500 terminated normally (type: fileWatcher, window: 1).
+[2022-08-28 20:10:19.966] [sharedprocess] [info] Starting worker process with pid 12416 (type: fileWatcher, window: 1).
+[2022-08-28 20:10:37.003] [sharedprocess] [info] Worker process with pid 12416 terminated normally (type: fileWatcher, window: 1).
+[2022-08-28 20:10:38.336] [sharedprocess] [info] Starting worker process with pid 12666 (type: fileWatcher, window: 1).
+[2022-08-28 20:14:41.675] [sharedprocess] [info] Getting Manifest... andrsdc.base16-themes
+[2022-08-28 20:14:41.697] [sharedprocess] [info] Installing extension: andrsdc.base16-themes
+[2022-08-28 20:14:43.133] [sharedprocess] [info] Downloaded extension: andrsdc.base16-themes /home/h4ck4u/.config/Code/CachedExtensionVSIXs/andrsdc.base16-themes-1.4.5
+[2022-08-28 20:14:43.329] [sharedprocess] [info] Extracted extension to /home/h4ck4u/.vscode/extensions/.89e3857e-4562-45e5-b8f6-beedf58bc57c: andrsdc.base16-themes
+[2022-08-28 20:14:43.338] [sharedprocess] [info] Renamed to /home/h4ck4u/.vscode/extensions/andrsdc.base16-themes-1.4.5
+[2022-08-28 20:14:43.340] [sharedprocess] [info] Extracting completed. andrsdc.base16-themes
+[2022-08-28 20:14:43.344] [sharedprocess] [info] Extension installed successfully: andrsdc.base16-themes
+[2022-08-28 20:15:11.761] [sharedprocess] [info] Uninstalling extension: andrsdc.base16-themes@1.4.5
+[2022-08-28 20:15:12.056] [sharedprocess] [info] Detected extension removed from another source andrsdc.base16-themes
+[2022-08-28 20:15:12.192] [sharedprocess] [info] Successfully uninstalled extension: andrsdc.base16-themes@1.4.5
+[2022-08-28 20:15:44.396] [sharedprocess] [info] Getting Manifest... sdras.night-owl
+[2022-08-28 20:15:44.413] [sharedprocess] [info] Installing extension: sdras.night-owl
+[2022-08-28 20:15:45.833] [sharedprocess] [info] Downloaded extension: sdras.night-owl /home/h4ck4u/.config/Code/CachedExtensionVSIXs/sdras.night-owl-2.0.1
+[2022-08-28 20:15:45.972] [sharedprocess] [info] Extracted extension to /home/h4ck4u/.vscode/extensions/.1882d881-efc2-4466-8a89-ea8bd62c8ceb: sdras.night-owl
+[2022-08-28 20:15:45.977] [sharedprocess] [info] Renamed to /home/h4ck4u/.vscode/extensions/sdras.night-owl-2.0.1
+[2022-08-28 20:15:45.979] [sharedprocess] [info] Extracting completed. sdras.night-owl
+[2022-08-28 20:15:45.981] [sharedprocess] [info] Extension installed successfully: sdras.night-owl
+[2022-08-28 20:16:22.673] [sharedprocess] [info] Getting Manifest... eliverlara.andromeda
+[2022-08-28 20:16:22.691] [sharedprocess] [info] Installing extension: eliverlara.andromeda
+[2022-08-28 20:16:23.876] [sharedprocess] [info] Downloaded extension: eliverlara.andromeda /home/h4ck4u/.config/Code/CachedExtensionVSIXs/eliverlara.andromeda-1.7.1
+[2022-08-28 20:16:23.903] [sharedprocess] [info] Extracted extension to /home/h4ck4u/.vscode/extensions/.477e1a41-a065-47a2-84e4-5c985fcb9c26: eliverlara.andromeda
+[2022-08-28 20:16:23.908] [sharedprocess] [info] Renamed to /home/h4ck4u/.vscode/extensions/eliverlara.andromeda-1.7.1
+[2022-08-28 20:16:23.911] [sharedprocess] [info] Extracting completed. eliverlara.andromeda
+[2022-08-28 20:16:23.912] [sharedprocess] [info] Extension installed successfully: eliverlara.andromeda
+[2022-08-28 20:17:28.324] [sharedprocess] [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/resource/globalState {}
+[2022-08-28 20:20:06.481] [sharedprocess] [info] Getting Manifest... amodio.amethyst-theme
+[2022-08-28 20:20:06.504] [sharedprocess] [info] Installing extension: amodio.amethyst-theme
+[2022-08-28 20:20:07.835] [sharedprocess] [info] Downloaded extension: amodio.amethyst-theme /home/h4ck4u/.config/Code/CachedExtensionVSIXs/amodio.amethyst-theme-4.5.0
+[2022-08-28 20:20:07.866] [sharedprocess] [info] Extracted extension to /home/h4ck4u/.vscode/extensions/.8a8297ca-4c2b-410b-b500-d4f80b02a07a: amodio.amethyst-theme
+[2022-08-28 20:20:07.871] [sharedprocess] [info] Renamed to /home/h4ck4u/.vscode/extensions/amodio.amethyst-theme-4.5.0
+[2022-08-28 20:20:07.873] [sharedprocess] [info] Extracting completed. amodio.amethyst-theme
+[2022-08-28 20:20:07.874] [sharedprocess] [info] Extension installed successfully: amodio.amethyst-theme
+[2022-08-28 20:21:08.025] [sharedprocess] [error] RequestService#request (browser) - error https://vscode-sync.trafficmanager.net/v1/manifest {}

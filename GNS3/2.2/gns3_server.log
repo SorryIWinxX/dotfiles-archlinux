@@ -1,0 +1,670 @@
+2022-08-23 12:14:36 INFO run.py:219 GNS3 server version 2.2.33.1
+2022-08-23 12:14:36 INFO run.py:221 Copyright (c) 2007-2022 GNS3 Technologies Inc.
+2022-08-23 12:14:36 INFO run.py:224 Config file /home/h4ck4u/.config/GNS3/2.2/gns3_server.conf loaded
+2022-08-23 12:14:36 WARNING run.py:230 Local mode is enabled. Beware, clients will have full control on your filesystem
+2022-08-23 12:14:36 INFO run.py:237 HTTP authentication is enabled with username 'admin'
+2022-08-23 12:14:36 INFO run.py:243 Running with Python 3.10.5 and has PID 1341
+2022-08-23 12:14:36 INFO run.py:79 Current locale is en_US.UTF-8
+2022-08-23 12:14:36 INFO web_server.py:318 Starting server on localhost:3080
+2022-08-23 12:14:36 INFO __init__.py:63 Load controller configuration file /home/h4ck4u/.config/GNS3/2.2/gns3_controller.conf
+2022-08-23 12:14:36 INFO __init__.py:67 Controller is starting
+2022-08-23 12:14:36 INFO compute.py:64 Create compute local
+2022-08-23 12:14:36 INFO compute.py:364 Connecting to compute 'local'
+2022-08-23 12:14:36 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:36 +0000] "GET /v2/compute/capabilities HTTP/1.1" 200 557 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:36 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:36 +0000] "GET /v2/version HTTP/1.1" 200 232 "-" "GNS3 QT Client v2.2.33.1"
+2022-08-23 12:14:36 INFO notification_handler.py:50 New client has connected to compute WebSocket
+2022-08-23 12:14:36 INFO compute.py:434 Connected to compute 'local' WebSocket 'http://localhost:3080/v2/compute/notifications/ws'
+2022-08-23 12:14:36 INFO notification_handler.py:73 New client has connected to controller WebSocket
+2022-08-23 12:14:36 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:36 +0000] "GET /v2/version HTTP/1.1" 200 232 "-" "GNS3 QT Client v2.2.33.1"
+2022-08-23 12:14:36 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:36 +0000] "GET /v2/templates HTTP/1.1" 200 3606 "-" "GNS3 QT Client v2.2.33.1"
+2022-08-23 12:14:36 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:36 +0000] "GET /v2/appliances?symbol_theme=Classic HTTP/1.1" 200 811804 "-" "GNS3 QT Client v2.2.33.1"
+2022-08-23 12:14:36 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:36 +0000] "GET /v2/projects HTTP/1.1" 200 6539 "-" "GNS3 QT Client v2.2.33.1"
+2022-08-23 12:14:36 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:36 +0000] "GET /v2/computes HTTP/1.1" 200 1028 "-" "GNS3 QT Client v2.2.33.1"
+2022-08-23 12:14:36 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:36 +0000] "GET /v2/projects HTTP/1.1" 200 6539 "-" "GNS3 QT Client v2.2.33.1"
+2022-08-23 12:14:42 INFO project.py:78 Project 636dee39-38f5-48a7-aabe-bb77f9c8db29 with path '/home/h4ck4u/GNS3/projects/proyect_final' created
+2022-08-23 12:14:42 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:42 +0000] "POST /v2/compute/projects HTTP/1.1" 201 311 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:42 INFO base_node.py:282 VPCS: PC1 [0e18abe4-11cc-4105-a05d-ec4672fb1675] created
+2022-08-23 12:14:42 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:42 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes HTTP/1.1" 201 579 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:42 INFO base_node.py:282 VPCS: PC2 [0785ce4e-107e-4e16-9cbc-dc8d8e8f6174] created
+2022-08-23 12:14:42 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:42 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes HTTP/1.1" 201 579 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:42 INFO __init__.py:303 Creating new hypervisor localhost:56065 with working directory /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips
+2022-08-23 12:14:42 INFO hypervisor.py:127 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i1_log.txt', '-H', 'localhost:56065']
+2022-08-23 12:14:42 INFO hypervisor.py:129 Dynamips process logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/dynamips_i1_stdout.txt
+2022-08-23 12:14:42 INFO hypervisor.py:136 Dynamips process started PID=1374
+2022-08-23 12:14:42 INFO __init__.py:305 Hypervisor localhost:56065 has successfully started
+2022-08-23 12:14:42 INFO dynamips_hypervisor.py:92 Connected to Dynamips hypervisor on localhost:56065 after 0.2939 seconds
+2022-08-23 12:14:42 INFO ethernet_switch.py:187 Ethernet switch "Switch1" [814eef4e-dc63-432f-8ef6-f0bdb6f55462] has been created
+2022-08-23 12:14:42 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:42 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ethernet_switch/nodes HTTP/1.1" 201 1564 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:42 INFO __init__.py:303 Creating new hypervisor localhost:42257 with working directory /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips
+2022-08-23 12:14:42 INFO hypervisor.py:127 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i2_log.txt', '-H', 'localhost:42257']
+2022-08-23 12:14:42 INFO hypervisor.py:129 Dynamips process logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/dynamips_i2_stdout.txt
+2022-08-23 12:14:42 INFO hypervisor.py:136 Dynamips process started PID=1390
+2022-08-23 12:14:42 INFO __init__.py:305 Hypervisor localhost:42257 has successfully started
+2022-08-23 12:14:42 INFO dynamips_hypervisor.py:92 Connected to Dynamips hypervisor on localhost:42257 after 0.0157 seconds
+2022-08-23 12:14:42 INFO ethernet_switch.py:187 Ethernet switch "Switch2" [3ebfc551-f2e4-468e-a359-aec243e6ec6c] has been created
+2022-08-23 12:14:42 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:42 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ethernet_switch/nodes HTTP/1.1" 201 1564 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:42 INFO base_node.py:282 VPCS: PC3 [7ec8bffb-57b6-416c-86d7-e909cbecf5db] created
+2022-08-23 12:14:42 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:42 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes HTTP/1.1" 201 579 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:42 INFO base_node.py:282 VPCS: PC4 [924d5398-282d-4b4b-9987-adedd9ae1cde] created
+2022-08-23 12:14:42 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:42 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes HTTP/1.1" 201 579 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:42 INFO __init__.py:303 Creating new hypervisor localhost:50221 with working directory /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips
+2022-08-23 12:14:42 INFO hypervisor.py:127 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i3_log.txt', '-H', 'localhost:50221']
+2022-08-23 12:14:42 INFO hypervisor.py:129 Dynamips process logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/dynamips_i3_stdout.txt
+2022-08-23 12:14:42 INFO hypervisor.py:136 Dynamips process started PID=1406
+2022-08-23 12:14:42 INFO __init__.py:305 Hypervisor localhost:50221 has successfully started
+2022-08-23 12:14:42 INFO dynamips_hypervisor.py:92 Connected to Dynamips hypervisor on localhost:50221 after 0.0271 seconds
+2022-08-23 12:14:42 INFO router.py:222 Router c3725 "R1" [ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39] has been created
+2022-08-23 12:14:42 INFO router.py:952 Router "R1" [ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39]: auto delete disks enabled
+2022-08-23 12:14:42 INFO router.py:903 Router "R1" [ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39]: disk0 updated from 16MB to 0MB
+2022-08-23 12:14:42 INFO router.py:661 Router "R1" [ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39]: idle-PC set to 0x60ca5100
+2022-08-23 12:14:42 INFO router.py:489 Router "R1" [ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39]: has a new IOS image set: "/home/h4ck4u/GNS3/images/IOS/c3725-adventerprisek9_ivs-mz.124-15.T14.image"
+2022-08-23 12:14:42 INFO router.py:1027 Router "R1" [ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39]: MAC address updated from c201.057e.0000 to c201.0c27.0000
+2022-08-23 12:14:42 INFO router.py:543 Router "R1" [ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39]: NVRAM updated from 112KB to 256KB
+2022-08-23 12:14:42 INFO router.py:1102 Router "R1" [ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39]: adapter NM-1FE-TX inserted into slot 1
+2022-08-23 12:14:42 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:42 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes HTTP/1.1" 201 1221 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:42 INFO __init__.py:303 Creating new hypervisor localhost:41809 with working directory /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips
+2022-08-23 12:14:42 INFO hypervisor.py:127 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i4_log.txt', '-H', 'localhost:41809']
+2022-08-23 12:14:42 INFO hypervisor.py:129 Dynamips process logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/dynamips_i4_stdout.txt
+2022-08-23 12:14:42 INFO hypervisor.py:136 Dynamips process started PID=1422
+2022-08-23 12:14:42 INFO __init__.py:305 Hypervisor localhost:41809 has successfully started
+2022-08-23 12:14:42 INFO dynamips_hypervisor.py:92 Connected to Dynamips hypervisor on localhost:41809 after 0.0134 seconds
+2022-08-23 12:14:42 INFO router.py:222 Router c3725 "R2" [38525c4f-fe23-4fd1-ba1f-9236db4d64c4] has been created
+2022-08-23 12:14:42 INFO router.py:952 Router "R2" [38525c4f-fe23-4fd1-ba1f-9236db4d64c4]: auto delete disks enabled
+2022-08-23 12:14:42 INFO router.py:903 Router "R2" [38525c4f-fe23-4fd1-ba1f-9236db4d64c4]: disk0 updated from 16MB to 0MB
+2022-08-23 12:14:42 INFO router.py:661 Router "R2" [38525c4f-fe23-4fd1-ba1f-9236db4d64c4]: idle-PC set to 0x60ca5100
+2022-08-23 12:14:42 INFO router.py:489 Router "R2" [38525c4f-fe23-4fd1-ba1f-9236db4d64c4]: has a new IOS image set: "/home/h4ck4u/GNS3/images/IOS/c3725-adventerprisek9_ivs-mz.124-15.T14.image"
+2022-08-23 12:14:42 INFO router.py:1027 Router "R2" [38525c4f-fe23-4fd1-ba1f-9236db4d64c4]: MAC address updated from c202.058e.0000 to c202.0c3d.0000
+2022-08-23 12:14:42 INFO router.py:543 Router "R2" [38525c4f-fe23-4fd1-ba1f-9236db4d64c4]: NVRAM updated from 112KB to 256KB
+2022-08-23 12:14:42 INFO router.py:1102 Router "R2" [38525c4f-fe23-4fd1-ba1f-9236db4d64c4]: adapter NM-1FE-TX inserted into slot 1
+2022-08-23 12:14:42 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:42 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes HTTP/1.1" 201 1221 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:42 INFO __init__.py:303 Creating new hypervisor localhost:37123 with working directory /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips
+2022-08-23 12:14:42 INFO hypervisor.py:127 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i5_log.txt', '-H', 'localhost:37123']
+2022-08-23 12:14:42 INFO hypervisor.py:129 Dynamips process logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/dynamips_i5_stdout.txt
+2022-08-23 12:14:42 INFO hypervisor.py:136 Dynamips process started PID=1438
+2022-08-23 12:14:42 INFO __init__.py:305 Hypervisor localhost:37123 has successfully started
+2022-08-23 12:14:42 INFO dynamips_hypervisor.py:92 Connected to Dynamips hypervisor on localhost:37123 after 0.0278 seconds
+2022-08-23 12:14:42 INFO router.py:222 Router c3725 "R3" [0efe7b17-ead9-447c-8279-b124328e14b4] has been created
+2022-08-23 12:14:42 INFO router.py:952 Router "R3" [0efe7b17-ead9-447c-8279-b124328e14b4]: auto delete disks enabled
+2022-08-23 12:14:42 INFO router.py:903 Router "R3" [0efe7b17-ead9-447c-8279-b124328e14b4]: disk0 updated from 16MB to 0MB
+2022-08-23 12:14:42 INFO router.py:661 Router "R3" [0efe7b17-ead9-447c-8279-b124328e14b4]: idle-PC set to 0x60ca5100
+2022-08-23 12:14:42 INFO router.py:489 Router "R3" [0efe7b17-ead9-447c-8279-b124328e14b4]: has a new IOS image set: "/home/h4ck4u/GNS3/images/IOS/c3725-adventerprisek9_ivs-mz.124-15.T14.image"
+2022-08-23 12:14:42 INFO router.py:1027 Router "R3" [0efe7b17-ead9-447c-8279-b124328e14b4]: MAC address updated from c203.059e.0000 to c203.0c4f.0000
+2022-08-23 12:14:42 INFO router.py:543 Router "R3" [0efe7b17-ead9-447c-8279-b124328e14b4]: NVRAM updated from 112KB to 256KB
+2022-08-23 12:14:42 INFO router.py:1102 Router "R3" [0efe7b17-ead9-447c-8279-b124328e14b4]: adapter NM-1FE-TX inserted into slot 1
+2022-08-23 12:14:43 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:42 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes HTTP/1.1" 201 1221 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:43 INFO __init__.py:303 Creating new hypervisor localhost:39567 with working directory /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips
+2022-08-23 12:14:43 INFO hypervisor.py:127 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i6_log.txt', '-H', 'localhost:39567']
+2022-08-23 12:14:43 INFO hypervisor.py:129 Dynamips process logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/dynamips_i6_stdout.txt
+2022-08-23 12:14:43 INFO hypervisor.py:136 Dynamips process started PID=1454
+2022-08-23 12:14:43 INFO __init__.py:305 Hypervisor localhost:39567 has successfully started
+2022-08-23 12:14:43 INFO dynamips_hypervisor.py:92 Connected to Dynamips hypervisor on localhost:39567 after 0.0132 seconds
+2022-08-23 12:14:43 INFO router.py:222 Router c3725 "R4" [030fd2fb-6975-467f-b0f7-c26916833f27] has been created
+2022-08-23 12:14:43 INFO router.py:952 Router "R4" [030fd2fb-6975-467f-b0f7-c26916833f27]: auto delete disks enabled
+2022-08-23 12:14:43 INFO router.py:903 Router "R4" [030fd2fb-6975-467f-b0f7-c26916833f27]: disk0 updated from 16MB to 0MB
+2022-08-23 12:14:43 INFO router.py:661 Router "R4" [030fd2fb-6975-467f-b0f7-c26916833f27]: idle-PC set to 0x60ca5100
+2022-08-23 12:14:43 INFO router.py:489 Router "R4" [030fd2fb-6975-467f-b0f7-c26916833f27]: has a new IOS image set: "/home/h4ck4u/GNS3/images/IOS/c3725-adventerprisek9_ivs-mz.124-15.T14.image"
+2022-08-23 12:14:43 INFO router.py:1027 Router "R4" [030fd2fb-6975-467f-b0f7-c26916833f27]: MAC address updated from c204.05ae.0000 to c204.0c60.0000
+2022-08-23 12:14:43 INFO router.py:543 Router "R4" [030fd2fb-6975-467f-b0f7-c26916833f27]: NVRAM updated from 112KB to 256KB
+2022-08-23 12:14:43 INFO router.py:1102 Router "R4" [030fd2fb-6975-467f-b0f7-c26916833f27]: adapter NM-1FE-TX inserted into slot 1
+2022-08-23 12:14:43 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes HTTP/1.1" 201 1221 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:43 INFO __init__.py:303 Creating new hypervisor localhost:34339 with working directory /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips
+2022-08-23 12:14:43 INFO hypervisor.py:127 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i7_log.txt', '-H', 'localhost:34339']
+2022-08-23 12:14:43 INFO hypervisor.py:129 Dynamips process logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/dynamips_i7_stdout.txt
+2022-08-23 12:14:43 INFO hypervisor.py:136 Dynamips process started PID=1470
+2022-08-23 12:14:43 INFO __init__.py:305 Hypervisor localhost:34339 has successfully started
+2022-08-23 12:14:43 INFO dynamips_hypervisor.py:92 Connected to Dynamips hypervisor on localhost:34339 after 0.0130 seconds
+2022-08-23 12:14:43 INFO router.py:222 Router c3725 "R5" [3277b48c-c049-44b7-8aa5-2017b55f596b] has been created
+2022-08-23 12:14:43 INFO router.py:952 Router "R5" [3277b48c-c049-44b7-8aa5-2017b55f596b]: auto delete disks enabled
+2022-08-23 12:14:43 INFO router.py:903 Router "R5" [3277b48c-c049-44b7-8aa5-2017b55f596b]: disk0 updated from 16MB to 0MB
+2022-08-23 12:14:43 INFO router.py:661 Router "R5" [3277b48c-c049-44b7-8aa5-2017b55f596b]: idle-PC set to 0x60ca5100
+2022-08-23 12:14:43 INFO router.py:489 Router "R5" [3277b48c-c049-44b7-8aa5-2017b55f596b]: has a new IOS image set: "/home/h4ck4u/GNS3/images/IOS/c3725-adventerprisek9_ivs-mz.124-15.T14.image"
+2022-08-23 12:14:43 INFO router.py:1027 Router "R5" [3277b48c-c049-44b7-8aa5-2017b55f596b]: MAC address updated from c205.05be.0000 to c205.0c70.0000
+2022-08-23 12:14:43 INFO router.py:543 Router "R5" [3277b48c-c049-44b7-8aa5-2017b55f596b]: NVRAM updated from 112KB to 256KB
+2022-08-23 12:14:43 INFO router.py:1102 Router "R5" [3277b48c-c049-44b7-8aa5-2017b55f596b]: adapter NM-1FE-TX inserted into slot 1
+2022-08-23 12:14:43 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes HTTP/1.1" 201 1221 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:43 INFO __init__.py:303 Creating new hypervisor localhost:51921 with working directory /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips
+2022-08-23 12:14:43 INFO hypervisor.py:127 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i8_log.txt', '-H', 'localhost:51921']
+2022-08-23 12:14:43 INFO hypervisor.py:129 Dynamips process logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/dynamips_i8_stdout.txt
+2022-08-23 12:14:43 INFO hypervisor.py:136 Dynamips process started PID=1486
+2022-08-23 12:14:43 INFO __init__.py:305 Hypervisor localhost:51921 has successfully started
+2022-08-23 12:14:43 INFO dynamips_hypervisor.py:92 Connected to Dynamips hypervisor on localhost:51921 after 0.0265 seconds
+2022-08-23 12:14:43 INFO router.py:222 Router c3725 "R6" [3152e2be-5e04-4e8a-9a1f-d4f6844910b9] has been created
+2022-08-23 12:14:43 INFO router.py:952 Router "R6" [3152e2be-5e04-4e8a-9a1f-d4f6844910b9]: auto delete disks enabled
+2022-08-23 12:14:43 INFO router.py:903 Router "R6" [3152e2be-5e04-4e8a-9a1f-d4f6844910b9]: disk0 updated from 16MB to 0MB
+2022-08-23 12:14:43 INFO router.py:661 Router "R6" [3152e2be-5e04-4e8a-9a1f-d4f6844910b9]: idle-PC set to 0x60ca5100
+2022-08-23 12:14:43 INFO router.py:489 Router "R6" [3152e2be-5e04-4e8a-9a1f-d4f6844910b9]: has a new IOS image set: "/home/h4ck4u/GNS3/images/IOS/c3725-adventerprisek9_ivs-mz.124-15.T14.image"
+2022-08-23 12:14:43 INFO router.py:1027 Router "R6" [3152e2be-5e04-4e8a-9a1f-d4f6844910b9]: MAC address updated from c206.05ce.0000 to c206.0c87.0000
+2022-08-23 12:14:43 INFO router.py:543 Router "R6" [3152e2be-5e04-4e8a-9a1f-d4f6844910b9]: NVRAM updated from 112KB to 256KB
+2022-08-23 12:14:43 INFO router.py:1102 Router "R6" [3152e2be-5e04-4e8a-9a1f-d4f6844910b9]: adapter NM-1FE-TX inserted into slot 1
+2022-08-23 12:14:43 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes HTTP/1.1" 201 1221 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:43 INFO __init__.py:303 Creating new hypervisor localhost:60895 with working directory /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips
+2022-08-23 12:14:43 INFO hypervisor.py:127 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i9_log.txt', '-H', 'localhost:60895']
+2022-08-23 12:14:43 INFO hypervisor.py:129 Dynamips process logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/dynamips_i9_stdout.txt
+2022-08-23 12:14:43 INFO hypervisor.py:136 Dynamips process started PID=1502
+2022-08-23 12:14:43 INFO __init__.py:305 Hypervisor localhost:60895 has successfully started
+2022-08-23 12:14:43 INFO dynamips_hypervisor.py:92 Connected to Dynamips hypervisor on localhost:60895 after 0.0124 seconds
+2022-08-23 12:14:43 INFO router.py:222 Router c3725 "R7" [6348577c-568b-4f2a-abd1-14873ee0f8fe] has been created
+2022-08-23 12:14:43 INFO router.py:952 Router "R7" [6348577c-568b-4f2a-abd1-14873ee0f8fe]: auto delete disks enabled
+2022-08-23 12:14:43 INFO router.py:903 Router "R7" [6348577c-568b-4f2a-abd1-14873ee0f8fe]: disk0 updated from 16MB to 0MB
+2022-08-23 12:14:43 INFO router.py:661 Router "R7" [6348577c-568b-4f2a-abd1-14873ee0f8fe]: idle-PC set to 0x60ca5100
+2022-08-23 12:14:43 INFO router.py:489 Router "R7" [6348577c-568b-4f2a-abd1-14873ee0f8fe]: has a new IOS image set: "/home/h4ck4u/GNS3/images/IOS/c3725-adventerprisek9_ivs-mz.124-15.T14.image"
+2022-08-23 12:14:43 INFO router.py:1027 Router "R7" [6348577c-568b-4f2a-abd1-14873ee0f8fe]: MAC address updated from c207.05de.0000 to c207.0c98.0000
+2022-08-23 12:14:43 INFO router.py:543 Router "R7" [6348577c-568b-4f2a-abd1-14873ee0f8fe]: NVRAM updated from 112KB to 256KB
+2022-08-23 12:14:43 INFO router.py:1102 Router "R7" [6348577c-568b-4f2a-abd1-14873ee0f8fe]: adapter NM-1FE-TX inserted into slot 1
+2022-08-23 12:14:43 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes HTTP/1.1" 201 1221 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:43 INFO __init__.py:303 Creating new hypervisor localhost:52155 with working directory /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips
+2022-08-23 12:14:43 INFO hypervisor.py:127 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i10_log.txt', '-H', 'localhost:52155']
+2022-08-23 12:14:43 INFO hypervisor.py:129 Dynamips process logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/dynamips_i10_stdout.txt
+2022-08-23 12:14:43 INFO hypervisor.py:136 Dynamips process started PID=1518
+2022-08-23 12:14:43 INFO __init__.py:305 Hypervisor localhost:52155 has successfully started
+2022-08-23 12:14:43 INFO dynamips_hypervisor.py:92 Connected to Dynamips hypervisor on localhost:52155 after 0.0136 seconds
+2022-08-23 12:14:43 INFO ethernet_switch.py:187 Ethernet switch "Switch3" [78483ac3-4c47-4cff-9e56-90cdccc4e234] has been created
+2022-08-23 12:14:43 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ethernet_switch/nodes HTTP/1.1" 201 1564 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:43 INFO __init__.py:303 Creating new hypervisor localhost:35247 with working directory /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips
+2022-08-23 12:14:43 INFO hypervisor.py:127 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i11_log.txt', '-H', 'localhost:35247']
+2022-08-23 12:14:43 INFO hypervisor.py:129 Dynamips process logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/dynamips_i11_stdout.txt
+2022-08-23 12:14:43 INFO hypervisor.py:136 Dynamips process started PID=1534
+2022-08-23 12:14:43 INFO __init__.py:305 Hypervisor localhost:35247 has successfully started
+2022-08-23 12:14:43 INFO dynamips_hypervisor.py:92 Connected to Dynamips hypervisor on localhost:35247 after 0.0131 seconds
+2022-08-23 12:14:43 INFO ethernet_switch.py:187 Ethernet switch "Switch4" [a2da4074-243f-467d-aea5-ba0a20a23e31] has been created
+2022-08-23 12:14:43 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ethernet_switch/nodes HTTP/1.1" 201 1564 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:43 INFO base_node.py:282 VPCS: PC5 [95e8fb55-bcdf-46f4-b717-49df6ef8c907] created
+2022-08-23 12:14:43 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes HTTP/1.1" 201 579 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:43 INFO __init__.py:303 Creating new hypervisor localhost:36675 with working directory /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips
+2022-08-23 12:14:43 INFO hypervisor.py:127 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i12_log.txt', '-H', 'localhost:36675']
+2022-08-23 12:14:43 INFO hypervisor.py:129 Dynamips process logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/dynamips_i12_stdout.txt
+2022-08-23 12:14:43 INFO hypervisor.py:136 Dynamips process started PID=1550
+2022-08-23 12:14:43 INFO __init__.py:305 Hypervisor localhost:36675 has successfully started
+2022-08-23 12:14:43 INFO dynamips_hypervisor.py:92 Connected to Dynamips hypervisor on localhost:36675 after 0.0731 seconds
+2022-08-23 12:14:43 INFO router.py:222 Router c3725 "R8" [c5c26b06-425b-445d-9d94-f1e06faa9104] has been created
+2022-08-23 12:14:43 INFO router.py:952 Router "R8" [c5c26b06-425b-445d-9d94-f1e06faa9104]: auto delete disks enabled
+2022-08-23 12:14:43 INFO router.py:903 Router "R8" [c5c26b06-425b-445d-9d94-f1e06faa9104]: disk0 updated from 16MB to 0MB
+2022-08-23 12:14:43 INFO router.py:661 Router "R8" [c5c26b06-425b-445d-9d94-f1e06faa9104]: idle-PC set to 0x60ca5100
+2022-08-23 12:14:43 INFO router.py:489 Router "R8" [c5c26b06-425b-445d-9d94-f1e06faa9104]: has a new IOS image set: "/home/h4ck4u/GNS3/images/IOS/c3725-adventerprisek9_ivs-mz.124-15.T14.image"
+2022-08-23 12:14:43 INFO router.py:1027 Router "R8" [c5c26b06-425b-445d-9d94-f1e06faa9104]: MAC address updated from c208.060e.0000 to c208.14eb.0000
+2022-08-23 12:14:43 INFO router.py:543 Router "R8" [c5c26b06-425b-445d-9d94-f1e06faa9104]: NVRAM updated from 112KB to 256KB
+2022-08-23 12:14:43 INFO router.py:1102 Router "R8" [c5c26b06-425b-445d-9d94-f1e06faa9104]: adapter NM-1FE-TX inserted into slot 1
+2022-08-23 12:14:43 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes HTTP/1.1" 201 1221 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:43 INFO __init__.py:303 Creating new hypervisor localhost:38501 with working directory /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips
+2022-08-23 12:14:43 INFO hypervisor.py:127 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i13_log.txt', '-H', 'localhost:38501']
+2022-08-23 12:14:43 INFO hypervisor.py:129 Dynamips process logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/dynamips_i13_stdout.txt
+2022-08-23 12:14:43 INFO hypervisor.py:136 Dynamips process started PID=1566
+2022-08-23 12:14:43 INFO __init__.py:305 Hypervisor localhost:38501 has successfully started
+2022-08-23 12:14:43 INFO dynamips_hypervisor.py:92 Connected to Dynamips hypervisor on localhost:38501 after 0.0277 seconds
+2022-08-23 12:14:43 INFO router.py:222 Router c3725 "R9" [b670d4f3-b43a-4734-923e-24d356f1798c] has been created
+2022-08-23 12:14:43 INFO router.py:952 Router "R9" [b670d4f3-b43a-4734-923e-24d356f1798c]: auto delete disks enabled
+2022-08-23 12:14:43 INFO router.py:903 Router "R9" [b670d4f3-b43a-4734-923e-24d356f1798c]: disk0 updated from 16MB to 0MB
+2022-08-23 12:14:43 INFO router.py:661 Router "R9" [b670d4f3-b43a-4734-923e-24d356f1798c]: idle-PC set to 0x60ca5100
+2022-08-23 12:14:43 INFO router.py:489 Router "R9" [b670d4f3-b43a-4734-923e-24d356f1798c]: has a new IOS image set: "/home/h4ck4u/GNS3/images/IOS/c3725-adventerprisek9_ivs-mz.124-15.T14.image"
+2022-08-23 12:14:43 INFO router.py:1027 Router "R9" [b670d4f3-b43a-4734-923e-24d356f1798c]: MAC address updated from c209.061e.0000 to c209.151e.0000
+2022-08-23 12:14:43 INFO router.py:543 Router "R9" [b670d4f3-b43a-4734-923e-24d356f1798c]: NVRAM updated from 112KB to 256KB
+2022-08-23 12:14:43 INFO router.py:1102 Router "R9" [b670d4f3-b43a-4734-923e-24d356f1798c]: adapter NM-1FE-TX inserted into slot 1
+2022-08-23 12:14:43 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes HTTP/1.1" 201 1221 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:43 INFO base_node.py:282 VPCS: PC6 [50b8fd0a-d7da-41d5-af8a-8a79fa61753f] created
+2022-08-23 12:14:43 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes HTTP/1.1" 201 579 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:43 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:43 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:43 INFO vpcs_vm.py:376 VPCS "PC1" [0e18abe4-11cc-4105-a05d-ec4672fb1675]: NIO UDP added to port 0
+2022-08-23 12:14:43 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes/0e18abe4-11cc-4105-a05d-ec4672fb1675/adapters/0/ports/0/nio HTTP/1.1" 201 381 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:43 INFO nio_udp.py:74 NIO UDP udp-83d6c4d4-ee02-4606-a1f0-736601e5ecd4 created with lport=10001, rhost=127.0.0.1, rport=10000
+2022-08-23 12:14:43 INFO base_node.py:663 Starting new uBridge hypervisor localhost:46783
+2022-08-23 12:14:43 INFO hypervisor.py:169 starting ubridge: ['/usr/bin/ubridge', '-H', 'localhost:46783']
+2022-08-23 12:14:43 INFO hypervisor.py:171 logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39/ubridge.log
+2022-08-23 12:14:43 INFO hypervisor.py:179 ubridge started PID=1584
+2022-08-23 12:14:43 INFO base_node.py:666 Hypervisor localhost:46783 has successfully started
+2022-08-23 12:14:43 INFO ubridge_hypervisor.py:83 Connected to uBridge hypervisor on localhost:46783 after 0.1035 seconds
+2022-08-23 12:14:43 INFO router.py:1291 Router "R1" [ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39]: NIO udp-83d6c4d4-ee02-4606-a1f0-736601e5ecd4 bound to port 0/0
+2022-08-23 12:14:43 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39/adapters/0/ports/0/nio HTTP/1.1" 201 385 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:43 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:43 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:43 INFO nio_udp.py:74 NIO UDP udp-abbe7892-6cb5-4997-8067-39e075461af4 created with lport=10004, rhost=127.0.0.1, rport=10005
+2022-08-23 12:14:43 INFO router.py:1291 Router "R1" [ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39]: NIO udp-abbe7892-6cb5-4997-8067-39e075461af4 bound to port 0/1
+2022-08-23 12:14:43 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39/adapters/0/ports/1/nio HTTP/1.1" 201 385 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:43 INFO ethernet_switch.py:275 Ethernet switch "Switch1" [814eef4e-dc63-432f-8ef6-f0bdb6f55462]: NIO udp-38073021-a0cf-4780-81c2-cb254cfe3792 bound to port 0
+2022-08-23 12:14:43 INFO ethernet_switch.py:365 Ethernet switch "Switch1" [814eef4e-dc63-432f-8ef6-f0bdb6f55462]: port 0 set as an access port in VLAN 1
+2022-08-23 12:14:43 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ethernet_switch/nodes/814eef4e-dc63-432f-8ef6-f0bdb6f55462/adapters/0/ports/0/nio HTTP/1.1" 201 392 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:43 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:43 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:43 INFO vpcs_vm.py:376 VPCS "PC2" [0785ce4e-107e-4e16-9cbc-dc8d8e8f6174]: NIO UDP added to port 0
+2022-08-23 12:14:43 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes/0785ce4e-107e-4e16-9cbc-dc8d8e8f6174/adapters/0/ports/0/nio HTTP/1.1" 201 381 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:43 INFO nio_udp.py:74 NIO UDP udp-245b9789-ab60-4b1f-bc66-4d8d364d8e23 created with lport=10009, rhost=127.0.0.1, rport=10008
+2022-08-23 12:14:43 INFO base_node.py:663 Starting new uBridge hypervisor localhost:42513
+2022-08-23 12:14:43 INFO hypervisor.py:169 starting ubridge: ['/usr/bin/ubridge', '-H', 'localhost:42513']
+2022-08-23 12:14:43 INFO hypervisor.py:171 logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/38525c4f-fe23-4fd1-ba1f-9236db4d64c4/ubridge.log
+2022-08-23 12:14:43 INFO hypervisor.py:179 ubridge started PID=1593
+2022-08-23 12:14:43 INFO base_node.py:666 Hypervisor localhost:42513 has successfully started
+2022-08-23 12:14:43 INFO ubridge_hypervisor.py:83 Connected to uBridge hypervisor on localhost:42513 after 0.1030 seconds
+2022-08-23 12:14:44 INFO router.py:1291 Router "R2" [38525c4f-fe23-4fd1-ba1f-9236db4d64c4]: NIO udp-245b9789-ab60-4b1f-bc66-4d8d364d8e23 bound to port 0/0
+2022-08-23 12:14:44 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/38525c4f-fe23-4fd1-ba1f-9236db4d64c4/adapters/0/ports/0/nio HTTP/1.1" 201 385 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:44 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:44 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:44 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:44 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:44 INFO nio_udp.py:74 NIO UDP udp-8623eb21-bc04-4256-b2f8-7a2a8f23c663 created with lport=10012, rhost=127.0.0.1, rport=10013
+2022-08-23 12:14:44 INFO router.py:1291 Router "R2" [38525c4f-fe23-4fd1-ba1f-9236db4d64c4]: NIO udp-8623eb21-bc04-4256-b2f8-7a2a8f23c663 bound to port 0/1
+2022-08-23 12:14:44 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:44 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/38525c4f-fe23-4fd1-ba1f-9236db4d64c4/adapters/0/ports/1/nio HTTP/1.1" 201 385 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:44 INFO ethernet_switch.py:275 Ethernet switch "Switch1" [814eef4e-dc63-432f-8ef6-f0bdb6f55462]: NIO udp-ff6c4f73-6dd3-48ae-a8ba-3873f69499ca bound to port 1
+2022-08-23 12:14:44 INFO ethernet_switch.py:365 Ethernet switch "Switch1" [814eef4e-dc63-432f-8ef6-f0bdb6f55462]: port 1 set as an access port in VLAN 1
+2022-08-23 12:14:44 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:44 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ethernet_switch/nodes/814eef4e-dc63-432f-8ef6-f0bdb6f55462/adapters/0/ports/1/nio HTTP/1.1" 201 392 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:44 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:44 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:44 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:44 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:44 INFO ethernet_switch.py:275 Ethernet switch "Switch1" [814eef4e-dc63-432f-8ef6-f0bdb6f55462]: NIO udp-0ee4f71e-e5f1-45d2-a454-eaa8ad4378fc bound to port 2
+2022-08-23 12:14:44 INFO ethernet_switch.py:365 Ethernet switch "Switch1" [814eef4e-dc63-432f-8ef6-f0bdb6f55462]: port 2 set as an access port in VLAN 1
+2022-08-23 12:14:44 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:44 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ethernet_switch/nodes/814eef4e-dc63-432f-8ef6-f0bdb6f55462/adapters/0/ports/2/nio HTTP/1.1" 201 392 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:44 INFO nio_udp.py:74 NIO UDP udp-a1204d48-9f8f-4d61-b956-599008f4faea created with lport=10017, rhost=127.0.0.1, rport=10016
+2022-08-23 12:14:44 INFO base_node.py:663 Starting new uBridge hypervisor localhost:41927
+2022-08-23 12:14:44 INFO hypervisor.py:169 starting ubridge: ['/usr/bin/ubridge', '-H', 'localhost:41927']
+2022-08-23 12:14:44 INFO hypervisor.py:171 logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/0efe7b17-ead9-447c-8279-b124328e14b4/ubridge.log
+2022-08-23 12:14:44 INFO hypervisor.py:179 ubridge started PID=1602
+2022-08-23 12:14:44 INFO base_node.py:666 Hypervisor localhost:41927 has successfully started
+2022-08-23 12:14:44 INFO ubridge_hypervisor.py:83 Connected to uBridge hypervisor on localhost:41927 after 0.1039 seconds
+2022-08-23 12:14:44 INFO router.py:1291 Router "R3" [0efe7b17-ead9-447c-8279-b124328e14b4]: NIO udp-a1204d48-9f8f-4d61-b956-599008f4faea bound to port 0/0
+2022-08-23 12:14:44 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:44 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/0efe7b17-ead9-447c-8279-b124328e14b4/adapters/0/ports/0/nio HTTP/1.1" 201 385 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:44 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:44 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:44 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:44 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:44 INFO nio_udp.py:74 NIO UDP udp-9fdebbd2-738a-4f13-8fd9-e1600654d246 created with lport=10020, rhost=127.0.0.1, rport=10021
+2022-08-23 12:14:44 INFO base_node.py:663 Starting new uBridge hypervisor localhost:40777
+2022-08-23 12:14:44 INFO hypervisor.py:169 starting ubridge: ['/usr/bin/ubridge', '-H', 'localhost:40777']
+2022-08-23 12:14:44 INFO hypervisor.py:171 logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/3277b48c-c049-44b7-8aa5-2017b55f596b/ubridge.log
+2022-08-23 12:14:44 INFO hypervisor.py:179 ubridge started PID=1609
+2022-08-23 12:14:44 INFO base_node.py:666 Hypervisor localhost:40777 has successfully started
+2022-08-23 12:14:44 INFO ubridge_hypervisor.py:83 Connected to uBridge hypervisor on localhost:40777 after 0.1039 seconds
+2022-08-23 12:14:44 INFO router.py:1291 Router "R5" [3277b48c-c049-44b7-8aa5-2017b55f596b]: NIO udp-9fdebbd2-738a-4f13-8fd9-e1600654d246 bound to port 0/1
+2022-08-23 12:14:44 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:44 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/3277b48c-c049-44b7-8aa5-2017b55f596b/adapters/0/ports/1/nio HTTP/1.1" 201 385 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:44 INFO ethernet_switch.py:275 Ethernet switch "Switch2" [3ebfc551-f2e4-468e-a359-aec243e6ec6c]: NIO udp-e8943466-d064-4fca-9e13-20403420e2b4 bound to port 0
+2022-08-23 12:14:44 INFO ethernet_switch.py:365 Ethernet switch "Switch2" [3ebfc551-f2e4-468e-a359-aec243e6ec6c]: port 0 set as an access port in VLAN 1
+2022-08-23 12:14:44 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:44 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ethernet_switch/nodes/3ebfc551-f2e4-468e-a359-aec243e6ec6c/adapters/0/ports/0/nio HTTP/1.1" 201 392 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:44 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:44 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:44 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:44 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:44 INFO ethernet_switch.py:275 Ethernet switch "Switch2" [3ebfc551-f2e4-468e-a359-aec243e6ec6c]: NIO udp-b1f4b617-d460-49af-87d0-5799a8134c02 bound to port 1
+2022-08-23 12:14:44 INFO ethernet_switch.py:365 Ethernet switch "Switch2" [3ebfc551-f2e4-468e-a359-aec243e6ec6c]: port 1 set as an access port in VLAN 1
+2022-08-23 12:14:44 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:44 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ethernet_switch/nodes/3ebfc551-f2e4-468e-a359-aec243e6ec6c/adapters/0/ports/1/nio HTTP/1.1" 201 392 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:44 INFO nio_udp.py:74 NIO UDP udp-513fbfd5-5a52-4287-b424-9351893fcaa6 created with lport=10025, rhost=127.0.0.1, rport=10024
+2022-08-23 12:14:44 INFO base_node.py:663 Starting new uBridge hypervisor localhost:41905
+2022-08-23 12:14:44 INFO hypervisor.py:169 starting ubridge: ['/usr/bin/ubridge', '-H', 'localhost:41905']
+2022-08-23 12:14:44 INFO hypervisor.py:171 logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/3152e2be-5e04-4e8a-9a1f-d4f6844910b9/ubridge.log
+2022-08-23 12:14:44 INFO hypervisor.py:179 ubridge started PID=1616
+2022-08-23 12:14:44 INFO base_node.py:666 Hypervisor localhost:41905 has successfully started
+2022-08-23 12:14:44 INFO ubridge_hypervisor.py:83 Connected to uBridge hypervisor on localhost:41905 after 0.1038 seconds
+2022-08-23 12:14:45 INFO router.py:1291 Router "R6" [3152e2be-5e04-4e8a-9a1f-d4f6844910b9]: NIO udp-513fbfd5-5a52-4287-b424-9351893fcaa6 bound to port 0/0
+2022-08-23 12:14:45 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:44 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/3152e2be-5e04-4e8a-9a1f-d4f6844910b9/adapters/0/ports/0/nio HTTP/1.1" 201 385 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO ethernet_switch.py:275 Ethernet switch "Switch2" [3ebfc551-f2e4-468e-a359-aec243e6ec6c]: NIO udp-d261f6bd-8e8d-4d08-a5ba-281711afae2d bound to port 2
+2022-08-23 12:14:45 INFO ethernet_switch.py:365 Ethernet switch "Switch2" [3ebfc551-f2e4-468e-a359-aec243e6ec6c]: port 2 set as an access port in VLAN 1
+2022-08-23 12:14:45 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ethernet_switch/nodes/3ebfc551-f2e4-468e-a359-aec243e6ec6c/adapters/0/ports/2/nio HTTP/1.1" 201 392 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO nio_udp.py:74 NIO UDP udp-28279cc0-6a0b-4f47-a526-ecf16bfab64a created with lport=10029, rhost=127.0.0.1, rport=10028
+2022-08-23 12:14:45 INFO base_node.py:663 Starting new uBridge hypervisor localhost:34361
+2022-08-23 12:14:45 INFO hypervisor.py:169 starting ubridge: ['/usr/bin/ubridge', '-H', 'localhost:34361']
+2022-08-23 12:14:45 INFO hypervisor.py:171 logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/6348577c-568b-4f2a-abd1-14873ee0f8fe/ubridge.log
+2022-08-23 12:14:45 INFO hypervisor.py:179 ubridge started PID=1623
+2022-08-23 12:14:45 INFO base_node.py:666 Hypervisor localhost:34361 has successfully started
+2022-08-23 12:14:45 INFO ubridge_hypervisor.py:83 Connected to uBridge hypervisor on localhost:34361 after 0.1036 seconds
+2022-08-23 12:14:45 INFO router.py:1291 Router "R7" [6348577c-568b-4f2a-abd1-14873ee0f8fe]: NIO udp-28279cc0-6a0b-4f47-a526-ecf16bfab64a bound to port 0/0
+2022-08-23 12:14:45 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/6348577c-568b-4f2a-abd1-14873ee0f8fe/adapters/0/ports/0/nio HTTP/1.1" 201 385 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO nio_udp.py:74 NIO UDP udp-5e9a6fe6-e55b-499b-804c-78d79d89c9b4 created with lport=10032, rhost=127.0.0.1, rport=10033
+2022-08-23 12:14:45 INFO router.py:1291 Router "R6" [3152e2be-5e04-4e8a-9a1f-d4f6844910b9]: NIO udp-5e9a6fe6-e55b-499b-804c-78d79d89c9b4 bound to port 0/1
+2022-08-23 12:14:45 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/3152e2be-5e04-4e8a-9a1f-d4f6844910b9/adapters/0/ports/1/nio HTTP/1.1" 201 385 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO vpcs_vm.py:376 VPCS "PC3" [7ec8bffb-57b6-416c-86d7-e909cbecf5db]: NIO UDP added to port 0
+2022-08-23 12:14:45 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes/7ec8bffb-57b6-416c-86d7-e909cbecf5db/adapters/0/ports/0/nio HTTP/1.1" 201 381 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO nio_udp.py:74 NIO UDP udp-9fa03c41-ac5a-4cf1-ad4b-57d36a665c6a created with lport=10036, rhost=127.0.0.1, rport=10037
+2022-08-23 12:14:45 INFO router.py:1291 Router "R7" [6348577c-568b-4f2a-abd1-14873ee0f8fe]: NIO udp-9fa03c41-ac5a-4cf1-ad4b-57d36a665c6a bound to port 0/1
+2022-08-23 12:14:45 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/6348577c-568b-4f2a-abd1-14873ee0f8fe/adapters/0/ports/1/nio HTTP/1.1" 201 385 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO vpcs_vm.py:376 VPCS "PC4" [924d5398-282d-4b4b-9987-adedd9ae1cde]: NIO UDP added to port 0
+2022-08-23 12:14:45 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes/924d5398-282d-4b4b-9987-adedd9ae1cde/adapters/0/ports/0/nio HTTP/1.1" 201 381 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO nio_udp.py:74 NIO UDP udp-e368bbcf-6473-4b97-82e3-85e809eafd32 created with lport=10040, rhost=127.0.0.1, rport=10041
+2022-08-23 12:14:45 INFO router.py:1291 Router "R3" [0efe7b17-ead9-447c-8279-b124328e14b4]: NIO udp-e368bbcf-6473-4b97-82e3-85e809eafd32 bound to port 0/1
+2022-08-23 12:14:45 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/0efe7b17-ead9-447c-8279-b124328e14b4/adapters/0/ports/1/nio HTTP/1.1" 201 385 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO ethernet_switch.py:275 Ethernet switch "Switch3" [78483ac3-4c47-4cff-9e56-90cdccc4e234]: NIO udp-9d7f2ce0-36b1-4830-bce3-784f0e242343 bound to port 0
+2022-08-23 12:14:45 INFO ethernet_switch.py:365 Ethernet switch "Switch3" [78483ac3-4c47-4cff-9e56-90cdccc4e234]: port 0 set as an access port in VLAN 1
+2022-08-23 12:14:45 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ethernet_switch/nodes/78483ac3-4c47-4cff-9e56-90cdccc4e234/adapters/0/ports/0/nio HTTP/1.1" 201 392 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO ethernet_switch.py:275 Ethernet switch "Switch3" [78483ac3-4c47-4cff-9e56-90cdccc4e234]: NIO udp-170adb45-bd41-4e3f-8277-ddb739cda65a bound to port 1
+2022-08-23 12:14:45 INFO ethernet_switch.py:365 Ethernet switch "Switch3" [78483ac3-4c47-4cff-9e56-90cdccc4e234]: port 1 set as an access port in VLAN 1
+2022-08-23 12:14:45 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ethernet_switch/nodes/78483ac3-4c47-4cff-9e56-90cdccc4e234/adapters/0/ports/1/nio HTTP/1.1" 201 392 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO nio_udp.py:74 NIO UDP udp-d20ee803-2925-412d-9899-13c2e1f211aa created with lport=10045, rhost=127.0.0.1, rport=10044
+2022-08-23 12:14:45 INFO base_node.py:663 Starting new uBridge hypervisor localhost:44065
+2022-08-23 12:14:45 INFO hypervisor.py:169 starting ubridge: ['/usr/bin/ubridge', '-H', 'localhost:44065']
+2022-08-23 12:14:45 INFO hypervisor.py:171 logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/030fd2fb-6975-467f-b0f7-c26916833f27/ubridge.log
+2022-08-23 12:14:45 INFO hypervisor.py:179 ubridge started PID=1636
+2022-08-23 12:14:45 INFO base_node.py:666 Hypervisor localhost:44065 has successfully started
+2022-08-23 12:14:45 INFO ubridge_hypervisor.py:83 Connected to uBridge hypervisor on localhost:44065 after 0.1044 seconds
+2022-08-23 12:14:45 INFO router.py:1291 Router "R4" [030fd2fb-6975-467f-b0f7-c26916833f27]: NIO udp-d20ee803-2925-412d-9899-13c2e1f211aa bound to port 0/0
+2022-08-23 12:14:45 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/030fd2fb-6975-467f-b0f7-c26916833f27/adapters/0/ports/0/nio HTTP/1.1" 201 385 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO nio_udp.py:74 NIO UDP udp-c8db2385-c074-4e56-9392-01b949fc1898 created with lport=10048, rhost=127.0.0.1, rport=10049
+2022-08-23 12:14:45 INFO router.py:1291 Router "R4" [030fd2fb-6975-467f-b0f7-c26916833f27]: NIO udp-c8db2385-c074-4e56-9392-01b949fc1898 bound to port 0/1
+2022-08-23 12:14:45 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/030fd2fb-6975-467f-b0f7-c26916833f27/adapters/0/ports/1/nio HTTP/1.1" 201 385 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:45 INFO ethernet_switch.py:275 Ethernet switch "Switch4" [a2da4074-243f-467d-aea5-ba0a20a23e31]: NIO udp-32224652-35a4-45e0-8075-235a621b8378 bound to port 0
+2022-08-23 12:14:45 INFO ethernet_switch.py:365 Ethernet switch "Switch4" [a2da4074-243f-467d-aea5-ba0a20a23e31]: port 0 set as an access port in VLAN 1
+2022-08-23 12:14:45 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:45 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ethernet_switch/nodes/a2da4074-243f-467d-aea5-ba0a20a23e31/adapters/0/ports/0/nio HTTP/1.1" 201 392 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:46 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:46 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:46 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:46 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:46 INFO ethernet_switch.py:275 Ethernet switch "Switch4" [a2da4074-243f-467d-aea5-ba0a20a23e31]: NIO udp-6d044485-34a9-4f84-b74d-e7d79f85290c bound to port 1
+2022-08-23 12:14:46 INFO ethernet_switch.py:365 Ethernet switch "Switch4" [a2da4074-243f-467d-aea5-ba0a20a23e31]: port 1 set as an access port in VLAN 1
+2022-08-23 12:14:46 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:46 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ethernet_switch/nodes/a2da4074-243f-467d-aea5-ba0a20a23e31/adapters/0/ports/1/nio HTTP/1.1" 201 392 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:46 INFO nio_udp.py:74 NIO UDP udp-6125e5bc-019b-4fd6-947c-f751c34a3983 created with lport=10053, rhost=127.0.0.1, rport=10052
+2022-08-23 12:14:46 INFO router.py:1291 Router "R5" [3277b48c-c049-44b7-8aa5-2017b55f596b]: NIO udp-6125e5bc-019b-4fd6-947c-f751c34a3983 bound to port 0/0
+2022-08-23 12:14:46 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:46 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/3277b48c-c049-44b7-8aa5-2017b55f596b/adapters/0/ports/0/nio HTTP/1.1" 201 385 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:46 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:46 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:46 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:46 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:46 INFO nio_udp.py:74 NIO UDP udp-d7b07cf0-07b1-489b-b1e4-e96303dfea17 created with lport=10056, rhost=127.0.0.1, rport=10057
+2022-08-23 12:14:46 INFO router.py:1291 Router "R4" [030fd2fb-6975-467f-b0f7-c26916833f27]: NIO udp-d7b07cf0-07b1-489b-b1e4-e96303dfea17 bound to port 1/0
+2022-08-23 12:14:46 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:46 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/030fd2fb-6975-467f-b0f7-c26916833f27/adapters/1/ports/0/nio HTTP/1.1" 201 385 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:46 INFO nio_udp.py:74 NIO UDP udp-61d80b37-01da-49c2-ba90-3341eb35dd63 created with lport=10057, rhost=127.0.0.1, rport=10056
+2022-08-23 12:14:46 INFO base_node.py:663 Starting new uBridge hypervisor localhost:40495
+2022-08-23 12:14:46 INFO hypervisor.py:169 starting ubridge: ['/usr/bin/ubridge', '-H', 'localhost:40495']
+2022-08-23 12:14:46 INFO hypervisor.py:171 logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/b670d4f3-b43a-4734-923e-24d356f1798c/ubridge.log
+2022-08-23 12:14:46 INFO hypervisor.py:179 ubridge started PID=1649
+2022-08-23 12:14:46 INFO base_node.py:666 Hypervisor localhost:40495 has successfully started
+2022-08-23 12:14:46 INFO ubridge_hypervisor.py:83 Connected to uBridge hypervisor on localhost:40495 after 0.1038 seconds
+2022-08-23 12:14:46 INFO router.py:1291 Router "R9" [b670d4f3-b43a-4734-923e-24d356f1798c]: NIO udp-61d80b37-01da-49c2-ba90-3341eb35dd63 bound to port 0/0
+2022-08-23 12:14:46 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:46 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/b670d4f3-b43a-4734-923e-24d356f1798c/adapters/0/ports/0/nio HTTP/1.1" 201 385 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:46 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:46 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:46 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:46 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:46 INFO nio_udp.py:74 NIO UDP udp-1e24bec3-200d-4c75-bdf2-54fba44410a8 created with lport=10062, rhost=127.0.0.1, rport=10063
+2022-08-23 12:14:46 INFO router.py:1291 Router "R9" [b670d4f3-b43a-4734-923e-24d356f1798c]: NIO udp-1e24bec3-200d-4c75-bdf2-54fba44410a8 bound to port 0/1
+2022-08-23 12:14:46 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:46 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/b670d4f3-b43a-4734-923e-24d356f1798c/adapters/0/ports/1/nio HTTP/1.1" 201 385 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:46 INFO vpcs_vm.py:376 VPCS "PC6" [50b8fd0a-d7da-41d5-af8a-8a79fa61753f]: NIO UDP added to port 0
+2022-08-23 12:14:46 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:46 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes/50b8fd0a-d7da-41d5-af8a-8a79fa61753f/adapters/0/ports/0/nio HTTP/1.1" 201 381 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:46 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:46 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:46 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:46 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:46 INFO vpcs_vm.py:376 VPCS "PC5" [95e8fb55-bcdf-46f4-b717-49df6ef8c907]: NIO UDP added to port 0
+2022-08-23 12:14:46 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:46 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes/95e8fb55-bcdf-46f4-b717-49df6ef8c907/adapters/0/ports/0/nio HTTP/1.1" 201 381 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:46 INFO nio_udp.py:74 NIO UDP udp-74bd8cfc-e9f1-470b-aebb-535eb5c2afb1 created with lport=10067, rhost=127.0.0.1, rport=10066
+2022-08-23 12:14:46 INFO base_node.py:663 Starting new uBridge hypervisor localhost:41713
+2022-08-23 12:14:46 INFO hypervisor.py:169 starting ubridge: ['/usr/bin/ubridge', '-H', 'localhost:41713']
+2022-08-23 12:14:46 INFO hypervisor.py:171 logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/c5c26b06-425b-445d-9d94-f1e06faa9104/ubridge.log
+2022-08-23 12:14:46 INFO hypervisor.py:179 ubridge started PID=1659
+2022-08-23 12:14:46 INFO base_node.py:666 Hypervisor localhost:41713 has successfully started
+2022-08-23 12:14:46 INFO ubridge_hypervisor.py:83 Connected to uBridge hypervisor on localhost:41713 after 0.1034 seconds
+2022-08-23 12:14:46 INFO router.py:1291 Router "R8" [c5c26b06-425b-445d-9d94-f1e06faa9104]: NIO udp-74bd8cfc-e9f1-470b-aebb-535eb5c2afb1 bound to port 0/0
+2022-08-23 12:14:46 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:46 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/c5c26b06-425b-445d-9d94-f1e06faa9104/adapters/0/ports/0/nio HTTP/1.1" 201 385 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:46 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:46 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:46 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:46 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ports/udp HTTP/1.1" 201 246 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:46 INFO nio_udp.py:74 NIO UDP udp-4d1e0ae6-e7c9-4f57-8c4c-17d29d372a70 created with lport=10070, rhost=127.0.0.1, rport=10071
+2022-08-23 12:14:46 INFO router.py:1291 Router "R8" [c5c26b06-425b-445d-9d94-f1e06faa9104]: NIO udp-4d1e0ae6-e7c9-4f57-8c4c-17d29d372a70 bound to port 0/1
+2022-08-23 12:14:46 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:14:46 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/c5c26b06-425b-445d-9d94-f1e06faa9104/adapters/0/ports/1/nio HTTP/1.1" 201 385 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:46 INFO ethernet_switch.py:275 Ethernet switch "Switch1" [814eef4e-dc63-432f-8ef6-f0bdb6f55462]: NIO udp-5f1552c9-72b1-4a91-836c-a00c468fee27 bound to port 3
+2022-08-23 12:14:46 INFO ethernet_switch.py:365 Ethernet switch "Switch1" [814eef4e-dc63-432f-8ef6-f0bdb6f55462]: port 3 set as an access port in VLAN 1
+2022-08-23 12:14:46 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:46 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ethernet_switch/nodes/814eef4e-dc63-432f-8ef6-f0bdb6f55462/adapters/0/ports/3/nio HTTP/1.1" 201 392 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:14:46 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:42 +0000] "POST /v2/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/open HTTP/1.1" 201 764 "-" "GNS3 QT Client v2.2.33.1"
+2022-08-23 12:14:46 INFO project_handler.py:272 New client has connected to the notification stream for project ID '636dee39-38f5-48a7-aabe-bb77f9c8db29' (WebSocket method)
+2022-08-23 12:14:46 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:46 +0000] "GET /v2/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/nodes HTTP/1.1" 200 57373 "-" "GNS3 QT Client v2.2.33.1"
+2022-08-23 12:14:46 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:46 +0000] "GET /v2/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/links HTTP/1.1" 200 24116 "-" "GNS3 QT Client v2.2.33.1"
+2022-08-23 12:14:46 INFO web_log.py:206 ::1 [23/Aug/2022:17:14:46 +0000] "GET /v2/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/drawings HTTP/1.1" 200 23447 "-" "GNS3 QT Client v2.2.33.1"
+2022-08-23 12:17:41 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:17:41 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ethernet_switch/nodes/814eef4e-dc63-432f-8ef6-f0bdb6f55462/start HTTP/1.1" 204 200 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:17:41 INFO base_node.py:830 VPCS: 'PC1' [0e18abe4-11cc-4105-a05d-ec4672fb1675]:local UDP tunnel created between port 10074 and 10075
+2022-08-23 12:17:41 INFO vpcs_vm.py:225 Starting VPCS: ['/usr/bin/vpcs', '-p', '5001', '-m', '0', '-i', '1', '-F', '-R', '-s', '10074', '-c', '10075', '-t', '127.0.0.1', 'startup.vpc']
+2022-08-23 12:17:41 INFO vpcs_vm.py:227 Logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/vpcs/0e18abe4-11cc-4105-a05d-ec4672fb1675/vpcs.log
+2022-08-23 12:17:41 INFO base_node.py:663 Starting new uBridge hypervisor localhost:32787
+2022-08-23 12:17:41 INFO base_node.py:830 VPCS: 'PC2' [0785ce4e-107e-4e16-9cbc-dc8d8e8f6174]:local UDP tunnel created between port 10076 and 10077
+2022-08-23 12:17:41 INFO vpcs_vm.py:225 Starting VPCS: ['/usr/bin/vpcs', '-p', '5003', '-m', '1', '-i', '1', '-F', '-R', '-s', '10076', '-c', '10077', '-t', '127.0.0.1', 'startup.vpc']
+2022-08-23 12:17:41 INFO vpcs_vm.py:227 Logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/vpcs/0785ce4e-107e-4e16-9cbc-dc8d8e8f6174/vpcs.log
+2022-08-23 12:17:41 INFO base_node.py:663 Starting new uBridge hypervisor localhost:44087
+2022-08-23 12:17:41 INFO hypervisor.py:169 starting ubridge: ['/usr/bin/ubridge', '-H', 'localhost:32787']
+2022-08-23 12:17:41 INFO hypervisor.py:171 logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/vpcs/0e18abe4-11cc-4105-a05d-ec4672fb1675/ubridge.log
+2022-08-23 12:17:41 INFO web_log.py:206 ::1 [23/Aug/2022:17:17:41 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ethernet_switch/nodes/3ebfc551-f2e4-468e-a359-aec243e6ec6c/start HTTP/1.1" 204 200 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:17:41 INFO hypervisor.py:179 ubridge started PID=1895
+2022-08-23 12:17:41 INFO base_node.py:666 Hypervisor localhost:32787 has successfully started
+2022-08-23 12:17:41 INFO hypervisor.py:169 starting ubridge: ['/usr/bin/ubridge', '-H', 'localhost:44087']
+2022-08-23 12:17:41 INFO hypervisor.py:171 logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/vpcs/0785ce4e-107e-4e16-9cbc-dc8d8e8f6174/ubridge.log
+2022-08-23 12:17:41 INFO hypervisor.py:179 ubridge started PID=1897
+2022-08-23 12:17:41 INFO base_node.py:666 Hypervisor localhost:44087 has successfully started
+2022-08-23 12:17:41 INFO base_node.py:830 VPCS: 'PC3' [7ec8bffb-57b6-416c-86d7-e909cbecf5db]:local UDP tunnel created between port 10078 and 10079
+2022-08-23 12:17:41 INFO vpcs_vm.py:225 Starting VPCS: ['/usr/bin/vpcs', '-p', '5004', '-m', '2', '-i', '1', '-F', '-R', '-s', '10078', '-c', '10079', '-t', '127.0.0.1', 'startup.vpc']
+2022-08-23 12:17:41 INFO vpcs_vm.py:227 Logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/vpcs/7ec8bffb-57b6-416c-86d7-e909cbecf5db/vpcs.log
+2022-08-23 12:17:41 INFO base_node.py:663 Starting new uBridge hypervisor localhost:33153
+2022-08-23 12:17:41 INFO hypervisor.py:169 starting ubridge: ['/usr/bin/ubridge', '-H', 'localhost:33153']
+2022-08-23 12:17:41 INFO hypervisor.py:171 logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/vpcs/7ec8bffb-57b6-416c-86d7-e909cbecf5db/ubridge.log
+2022-08-23 12:17:41 INFO hypervisor.py:179 ubridge started PID=1909
+2022-08-23 12:17:41 INFO base_node.py:666 Hypervisor localhost:33153 has successfully started
+2022-08-23 12:17:41 INFO ubridge_hypervisor.py:83 Connected to uBridge hypervisor on localhost:32787 after 0.1026 seconds
+2022-08-23 12:17:41 INFO ubridge_hypervisor.py:83 Connected to uBridge hypervisor on localhost:44087 after 0.1018 seconds
+2022-08-23 12:17:42 INFO ubridge_hypervisor.py:83 Connected to uBridge hypervisor on localhost:33153 after 0.1021 seconds
+2022-08-23 12:17:42 INFO vpcs_vm.py:246 VPCS instance PC1 started PID=1879
+2022-08-23 12:17:42 INFO web_log.py:206 ::1 [23/Aug/2022:17:17:41 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes/0e18abe4-11cc-4105-a05d-ec4672fb1675/start HTTP/1.1" 200 670 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:17:42 INFO base_node.py:830 VPCS: 'PC4' [924d5398-282d-4b4b-9987-adedd9ae1cde]:local UDP tunnel created between port 10080 and 10081
+2022-08-23 12:17:42 INFO vpcs_vm.py:225 Starting VPCS: ['/usr/bin/vpcs', '-p', '5005', '-m', '3', '-i', '1', '-F', '-R', '-s', '10080', '-c', '10081', '-t', '127.0.0.1', 'startup.vpc']
+2022-08-23 12:17:42 INFO vpcs_vm.py:227 Logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/vpcs/924d5398-282d-4b4b-9987-adedd9ae1cde/vpcs.log
+2022-08-23 12:17:42 INFO base_node.py:663 Starting new uBridge hypervisor localhost:42403
+2022-08-23 12:17:42 INFO vpcs_vm.py:246 VPCS instance PC2 started PID=1887
+2022-08-23 12:17:42 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:17:41 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes/0785ce4e-107e-4e16-9cbc-dc8d8e8f6174/start HTTP/1.1" 200 670 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:17:42 INFO hypervisor.py:169 starting ubridge: ['/usr/bin/ubridge', '-H', 'localhost:42403']
+2022-08-23 12:17:42 INFO hypervisor.py:171 logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/vpcs/924d5398-282d-4b4b-9987-adedd9ae1cde/ubridge.log
+2022-08-23 12:17:42 INFO hypervisor.py:179 ubridge started PID=1937
+2022-08-23 12:17:42 INFO base_node.py:666 Hypervisor localhost:42403 has successfully started
+2022-08-23 12:17:42 INFO router.py:110 Creating a new ghost IOS instance
+2022-08-23 12:17:42 INFO router.py:489 Router "Ghost" [6685aff1-2d48-4f29-9576-efe8d03e9951]: has a new IOS image set: "/home/h4ck4u/GNS3/images/IOS/c3725-adventerprisek9_ivs-mz.124-15.T14.image"
+2022-08-23 12:17:42 INFO router.py:850 Router "Ghost" [6685aff1-2d48-4f29-9576-efe8d03e9951]: ghost status set to 1
+2022-08-23 12:17:42 INFO router.py:810 Router "Ghost" [6685aff1-2d48-4f29-9576-efe8d03e9951]: ghost file set to "/home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/c3725-adventerprisek9_ivs-mz.124-15.T14.image-128.ghost"
+2022-08-23 12:17:42 INFO vpcs_vm.py:246 VPCS instance PC3 started PID=1901
+2022-08-23 12:17:42 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:17:41 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes/7ec8bffb-57b6-416c-86d7-e909cbecf5db/start HTTP/1.1" 200 670 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:17:42 INFO ubridge_hypervisor.py:83 Connected to uBridge hypervisor on localhost:42403 after 0.1028 seconds
+2022-08-23 12:17:42 INFO vpcs_vm.py:246 VPCS instance PC4 started PID=1927
+2022-08-23 12:17:42 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:17:42 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes/924d5398-282d-4b4b-9987-adedd9ae1cde/start HTTP/1.1" 200 670 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:17:42 INFO router.py:298 router "Ghost" [6685aff1-2d48-4f29-9576-efe8d03e9951] has been started
+2022-08-23 12:17:42 INFO web_log.py:206 ::1 [23/Aug/2022:17:17:42 +0000] "GET /v2/computes HTTP/1.1" 200 1028 "-" "GNS3 QT Client v2.2.33.1"
+2022-08-23 12:17:42 INFO router.py:328 Router "Ghost" [6685aff1-2d48-4f29-9576-efe8d03e9951] has been stopped
+2022-08-23 12:17:42 INFO router.py:1638 Router "Ghost" [6685aff1-2d48-4f29-9576-efe8d03e9951] has been deleted (including associated files)
+2022-08-23 12:17:42 INFO router.py:850 Router "R1" [ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39]: ghost status set to 2
+2022-08-23 12:17:42 INFO router.py:810 Router "R1" [ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39]: ghost file set to "/home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/c3725-adventerprisek9_ivs-mz.124-15.T14.image-128.ghost"
+2022-08-23 12:17:42 INFO router.py:850 Router "R2" [38525c4f-fe23-4fd1-ba1f-9236db4d64c4]: ghost status set to 2
+2022-08-23 12:17:42 INFO router.py:810 Router "R2" [38525c4f-fe23-4fd1-ba1f-9236db4d64c4]: ghost file set to "/home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/c3725-adventerprisek9_ivs-mz.124-15.T14.image-128.ghost"
+2022-08-23 12:17:42 INFO router.py:850 Router "R3" [0efe7b17-ead9-447c-8279-b124328e14b4]: ghost status set to 2
+2022-08-23 12:17:42 INFO router.py:810 Router "R3" [0efe7b17-ead9-447c-8279-b124328e14b4]: ghost file set to "/home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/c3725-adventerprisek9_ivs-mz.124-15.T14.image-128.ghost"
+2022-08-23 12:17:43 INFO router.py:298 router "R2" [38525c4f-fe23-4fd1-ba1f-9236db4d64c4] has been started
+2022-08-23 12:17:43 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:17:42 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/38525c4f-fe23-4fd1-ba1f-9236db4d64c4/start HTTP/1.1" 204 193 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:17:43 INFO router.py:298 router "R3" [0efe7b17-ead9-447c-8279-b124328e14b4] has been started
+2022-08-23 12:17:43 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:17:42 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/0efe7b17-ead9-447c-8279-b124328e14b4/start HTTP/1.1" 204 193 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:17:43 INFO router.py:298 router "R1" [ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39] has been started
+2022-08-23 12:17:43 INFO web_log.py:206 ::1 [23/Aug/2022:17:17:42 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39/start HTTP/1.1" 204 193 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:17:43 INFO router.py:850 Router "R4" [030fd2fb-6975-467f-b0f7-c26916833f27]: ghost status set to 2
+2022-08-23 12:17:43 INFO router.py:810 Router "R4" [030fd2fb-6975-467f-b0f7-c26916833f27]: ghost file set to "/home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/c3725-adventerprisek9_ivs-mz.124-15.T14.image-128.ghost"
+2022-08-23 12:17:43 INFO router.py:850 Router "R5" [3277b48c-c049-44b7-8aa5-2017b55f596b]: ghost status set to 2
+2022-08-23 12:17:43 INFO router.py:810 Router "R5" [3277b48c-c049-44b7-8aa5-2017b55f596b]: ghost file set to "/home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/c3725-adventerprisek9_ivs-mz.124-15.T14.image-128.ghost"
+2022-08-23 12:17:43 INFO router.py:850 Router "R6" [3152e2be-5e04-4e8a-9a1f-d4f6844910b9]: ghost status set to 2
+2022-08-23 12:17:43 INFO router.py:810 Router "R6" [3152e2be-5e04-4e8a-9a1f-d4f6844910b9]: ghost file set to "/home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/c3725-adventerprisek9_ivs-mz.124-15.T14.image-128.ghost"
+2022-08-23 12:17:43 INFO router.py:298 router "R4" [030fd2fb-6975-467f-b0f7-c26916833f27] has been started
+2022-08-23 12:17:43 INFO web_log.py:206 ::1 [23/Aug/2022:17:17:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/030fd2fb-6975-467f-b0f7-c26916833f27/start HTTP/1.1" 204 193 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:17:43 INFO router.py:298 router "R6" [3152e2be-5e04-4e8a-9a1f-d4f6844910b9] has been started
+2022-08-23 12:17:43 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:17:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/3152e2be-5e04-4e8a-9a1f-d4f6844910b9/start HTTP/1.1" 204 193 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:17:43 INFO router.py:850 Router "R7" [6348577c-568b-4f2a-abd1-14873ee0f8fe]: ghost status set to 2
+2022-08-23 12:17:43 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:17:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ethernet_switch/nodes/78483ac3-4c47-4cff-9e56-90cdccc4e234/start HTTP/1.1" 204 200 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:17:43 INFO router.py:810 Router "R7" [6348577c-568b-4f2a-abd1-14873ee0f8fe]: ghost file set to "/home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/c3725-adventerprisek9_ivs-mz.124-15.T14.image-128.ghost"
+2022-08-23 12:17:43 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:17:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ethernet_switch/nodes/a2da4074-243f-467d-aea5-ba0a20a23e31/start HTTP/1.1" 204 200 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:17:43 INFO base_node.py:830 VPCS: 'PC5' [95e8fb55-bcdf-46f4-b717-49df6ef8c907]:local UDP tunnel created between port 10082 and 10083
+2022-08-23 12:17:43 INFO vpcs_vm.py:225 Starting VPCS: ['/usr/bin/vpcs', '-p', '5020', '-m', '4', '-i', '1', '-F', '-R', '-s', '10082', '-c', '10083', '-t', '127.0.0.1', 'startup.vpc']
+2022-08-23 12:17:43 INFO vpcs_vm.py:227 Logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/vpcs/95e8fb55-bcdf-46f4-b717-49df6ef8c907/vpcs.log
+2022-08-23 12:17:43 INFO base_node.py:663 Starting new uBridge hypervisor localhost:38917
+2022-08-23 12:17:43 INFO router.py:298 router "R5" [3277b48c-c049-44b7-8aa5-2017b55f596b] has been started
+2022-08-23 12:17:43 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:17:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/3277b48c-c049-44b7-8aa5-2017b55f596b/start HTTP/1.1" 204 193 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:17:43 INFO hypervisor.py:169 starting ubridge: ['/usr/bin/ubridge', '-H', 'localhost:38917']
+2022-08-23 12:17:43 INFO hypervisor.py:171 logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/vpcs/95e8fb55-bcdf-46f4-b717-49df6ef8c907/ubridge.log
+2022-08-23 12:17:43 INFO hypervisor.py:179 ubridge started PID=1973
+2022-08-23 12:17:43 INFO base_node.py:666 Hypervisor localhost:38917 has successfully started
+2022-08-23 12:17:43 INFO router.py:850 Router "R8" [c5c26b06-425b-445d-9d94-f1e06faa9104]: ghost status set to 2
+2022-08-23 12:17:43 INFO router.py:810 Router "R8" [c5c26b06-425b-445d-9d94-f1e06faa9104]: ghost file set to "/home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/c3725-adventerprisek9_ivs-mz.124-15.T14.image-128.ghost"
+2022-08-23 12:17:43 INFO ubridge_hypervisor.py:83 Connected to uBridge hypervisor on localhost:38917 after 0.1024 seconds
+2022-08-23 12:17:43 INFO router.py:298 router "R7" [6348577c-568b-4f2a-abd1-14873ee0f8fe] has been started
+2022-08-23 12:17:43 INFO web_log.py:206 ::1 [23/Aug/2022:17:17:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/6348577c-568b-4f2a-abd1-14873ee0f8fe/start HTTP/1.1" 204 193 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:17:43 INFO router.py:850 Router "R9" [b670d4f3-b43a-4734-923e-24d356f1798c]: ghost status set to 2
+2022-08-23 12:17:43 INFO router.py:810 Router "R9" [b670d4f3-b43a-4734-923e-24d356f1798c]: ghost file set to "/home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/c3725-adventerprisek9_ivs-mz.124-15.T14.image-128.ghost"
+2022-08-23 12:17:43 INFO vpcs_vm.py:246 VPCS instance PC5 started PID=1965
+2022-08-23 12:17:43 INFO web_log.py:206 ::1 [23/Aug/2022:17:17:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes/95e8fb55-bcdf-46f4-b717-49df6ef8c907/start HTTP/1.1" 200 670 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:17:43 INFO base_node.py:830 VPCS: 'PC6' [50b8fd0a-d7da-41d5-af8a-8a79fa61753f]:local UDP tunnel created between port 10084 and 10085
+2022-08-23 12:17:43 INFO vpcs_vm.py:225 Starting VPCS: ['/usr/bin/vpcs', '-p', '5024', '-m', '5', '-i', '1', '-F', '-R', '-s', '10084', '-c', '10085', '-t', '127.0.0.1', 'startup.vpc']
+2022-08-23 12:17:43 INFO vpcs_vm.py:227 Logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/vpcs/50b8fd0a-d7da-41d5-af8a-8a79fa61753f/vpcs.log
+2022-08-23 12:17:43 INFO base_node.py:663 Starting new uBridge hypervisor localhost:43045
+2022-08-23 12:17:43 INFO hypervisor.py:169 starting ubridge: ['/usr/bin/ubridge', '-H', 'localhost:43045']
+2022-08-23 12:17:43 INFO hypervisor.py:171 logging to /home/h4ck4u/GNS3/projects/proyect_final/project-files/vpcs/50b8fd0a-d7da-41d5-af8a-8a79fa61753f/ubridge.log
+2022-08-23 12:17:43 INFO hypervisor.py:179 ubridge started PID=1995
+2022-08-23 12:17:43 INFO base_node.py:666 Hypervisor localhost:43045 has successfully started
+2022-08-23 12:17:43 INFO router.py:298 router "R8" [c5c26b06-425b-445d-9d94-f1e06faa9104] has been started
+2022-08-23 12:17:43 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:17:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/c5c26b06-425b-445d-9d94-f1e06faa9104/start HTTP/1.1" 204 193 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:17:43 INFO ubridge_hypervisor.py:83 Connected to uBridge hypervisor on localhost:43045 after 0.1019 seconds
+2022-08-23 12:17:43 INFO vpcs_vm.py:246 VPCS instance PC6 started PID=1987
+2022-08-23 12:17:43 INFO web_log.py:206 ::1 [23/Aug/2022:17:17:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes/50b8fd0a-d7da-41d5-af8a-8a79fa61753f/start HTTP/1.1" 200 670 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:17:43 INFO router.py:298 router "R9" [b670d4f3-b43a-4734-923e-24d356f1798c] has been started
+2022-08-23 12:17:43 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:17:43 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/b670d4f3-b43a-4734-923e-24d356f1798c/start HTTP/1.1" 204 193 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:17:43 INFO web_log.py:206 ::1 [23/Aug/2022:17:17:41 +0000] "POST /v2/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/nodes/start HTTP/1.1" 204 166 "-" "GNS3 QT Client v2.2.33.1"
+2022-08-23 12:17:44 INFO web_log.py:206 ::1 [23/Aug/2022:17:17:44 +0000] "GET /v2/computes HTTP/1.1" 200 1028 "-" "GNS3 QT Client v2.2.33.1"
+2022-08-23 12:18:13 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/38525c4f-fe23-4fd1-ba1f-9236db4d64c4/configs/i2_startup-config.cfg
+2022-08-23 12:18:13 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/0efe7b17-ead9-447c-8279-b124328e14b4/configs/i3_startup-config.cfg
+2022-08-23 12:18:13 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39/configs/i1_startup-config.cfg
+2022-08-23 12:18:13 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/38525c4f-fe23-4fd1-ba1f-9236db4d64c4/configs/i2_startup-config.cfg
+2022-08-23 12:18:13 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/0efe7b17-ead9-447c-8279-b124328e14b4/configs/i3_startup-config.cfg
+2022-08-23 12:18:13 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39/configs/i1_startup-config.cfg
+2022-08-23 12:18:13 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/030fd2fb-6975-467f-b0f7-c26916833f27/configs/i4_startup-config.cfg
+2022-08-23 12:18:13 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/3152e2be-5e04-4e8a-9a1f-d4f6844910b9/configs/i6_startup-config.cfg
+2022-08-23 12:18:13 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/030fd2fb-6975-467f-b0f7-c26916833f27/configs/i4_startup-config.cfg
+2022-08-23 12:18:13 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/3152e2be-5e04-4e8a-9a1f-d4f6844910b9/configs/i6_startup-config.cfg
+2022-08-23 12:18:13 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/3277b48c-c049-44b7-8aa5-2017b55f596b/configs/i5_startup-config.cfg
+2022-08-23 12:18:13 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/3277b48c-c049-44b7-8aa5-2017b55f596b/configs/i5_startup-config.cfg
+2022-08-23 12:18:13 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/6348577c-568b-4f2a-abd1-14873ee0f8fe/configs/i7_startup-config.cfg
+2022-08-23 12:18:13 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/6348577c-568b-4f2a-abd1-14873ee0f8fe/configs/i7_startup-config.cfg
+2022-08-23 12:18:13 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/c5c26b06-425b-445d-9d94-f1e06faa9104/configs/i8_startup-config.cfg
+2022-08-23 12:18:13 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/c5c26b06-425b-445d-9d94-f1e06faa9104/configs/i8_startup-config.cfg
+2022-08-23 12:18:13 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/b670d4f3-b43a-4734-923e-24d356f1798c/configs/i9_startup-config.cfg
+2022-08-23 12:18:13 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/b670d4f3-b43a-4734-923e-24d356f1798c/configs/i9_startup-config.cfg
+2022-08-23 12:22:31 INFO web_log.py:206 ::1 [23/Aug/2022:17:22:31 +0000] "GET /v2/computes HTTP/1.1" 200 1028 "-" "GNS3 QT Client v2.2.33.1"
+2022-08-23 12:30:02 INFO web_log.py:206 ::1 [23/Aug/2022:17:30:02 +0000] "GET /v2/computes HTTP/1.1" 200 1028 "-" "GNS3 QT Client v2.2.33.1"
+2022-08-23 12:44:56 INFO web_log.py:206 ::1 [23/Aug/2022:17:44:56 +0000] "GET /v2/computes HTTP/1.1" 200 1028 "-" "GNS3 QT Client v2.2.33.1"
+2022-08-23 12:44:57 INFO web_log.py:206 ::1 [23/Aug/2022:17:44:57 +0000] "GET /v2/computes HTTP/1.1" 200 1028 "-" "GNS3 QT Client v2.2.33.1"
+2022-08-23 12:45:11 INFO notification_handler.py:82 Client has disconnected from controller WebSocket
+2022-08-23 12:45:11 INFO server_handler.py:53 Start shutting down the server
+2022-08-23 12:45:11 INFO base_node.py:677 Stopping uBridge hypervisor localhost:44087
+2022-08-23 12:45:11 INFO hypervisor.py:208 Stopping uBridge process PID=1897
+2022-08-23 12:45:11 INFO base_node.py:677 Stopping uBridge hypervisor localhost:32787
+2022-08-23 12:45:11 INFO hypervisor.py:208 Stopping uBridge process PID=1895
+2022-08-23 12:45:11 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:45:11 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ethernet_switch/nodes/814eef4e-dc63-432f-8ef6-f0bdb6f55462/stop HTTP/1.1" 204 199 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:45:11 INFO web_log.py:206 ::1 [23/Aug/2022:17:45:11 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ethernet_switch/nodes/3ebfc551-f2e4-468e-a359-aec243e6ec6c/stop HTTP/1.1" 204 199 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:45:11 INFO base_node.py:677 Stopping uBridge hypervisor localhost:33153
+2022-08-23 12:45:11 INFO hypervisor.py:208 Stopping uBridge process PID=1909
+2022-08-23 12:45:11 INFO vpcs_vm.py:308 Stopping VPCS instance PC1 PID=1879
+2022-08-23 12:45:11 INFO vpcs_vm.py:262 VPCS process has stopped, return code: 0
+2022-08-23 12:45:11 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:45:11 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes/0e18abe4-11cc-4105-a05d-ec4672fb1675/stop HTTP/1.1" 204 188 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:45:11 INFO base_node.py:677 Stopping uBridge hypervisor localhost:42403
+2022-08-23 12:45:11 INFO hypervisor.py:208 Stopping uBridge process PID=1937
+2022-08-23 12:45:11 INFO vpcs_vm.py:308 Stopping VPCS instance PC2 PID=1887
+2022-08-23 12:45:11 INFO vpcs_vm.py:262 VPCS process has stopped, return code: 0
+2022-08-23 12:45:11 INFO web_log.py:206 ::1 [23/Aug/2022:17:45:11 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes/0785ce4e-107e-4e16-9cbc-dc8d8e8f6174/stop HTTP/1.1" 204 188 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:45:11 INFO vpcs_vm.py:308 Stopping VPCS instance PC3 PID=1901
+2022-08-23 12:45:11 INFO router.py:328 Router "R1" [ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39] has been stopped
+2022-08-23 12:45:11 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39/configs/i1_startup-config.cfg
+2022-08-23 12:45:11 INFO web_log.py:206 ::1 [23/Aug/2022:17:45:11 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39/stop HTTP/1.1" 204 192 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:45:11 INFO vpcs_vm.py:262 VPCS process has stopped, return code: 0
+2022-08-23 12:45:11 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:45:11 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes/7ec8bffb-57b6-416c-86d7-e909cbecf5db/stop HTTP/1.1" 204 188 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:45:11 INFO vpcs_vm.py:308 Stopping VPCS instance PC4 PID=1927
+2022-08-23 12:45:11 INFO vpcs_vm.py:262 VPCS process has stopped, return code: 0
+2022-08-23 12:45:11 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:45:11 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes/924d5398-282d-4b4b-9987-adedd9ae1cde/stop HTTP/1.1" 204 188 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:45:11 INFO router.py:328 Router "R2" [38525c4f-fe23-4fd1-ba1f-9236db4d64c4] has been stopped
+2022-08-23 12:45:11 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/38525c4f-fe23-4fd1-ba1f-9236db4d64c4/configs/i2_startup-config.cfg
+2022-08-23 12:45:11 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:45:11 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/38525c4f-fe23-4fd1-ba1f-9236db4d64c4/stop HTTP/1.1" 204 192 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:45:11 INFO router.py:328 Router "R3" [0efe7b17-ead9-447c-8279-b124328e14b4] has been stopped
+2022-08-23 12:45:11 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/0efe7b17-ead9-447c-8279-b124328e14b4/configs/i3_startup-config.cfg
+2022-08-23 12:45:11 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:45:11 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/0efe7b17-ead9-447c-8279-b124328e14b4/stop HTTP/1.1" 204 192 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:45:11 INFO router.py:328 Router "R4" [030fd2fb-6975-467f-b0f7-c26916833f27] has been stopped
+2022-08-23 12:45:11 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/030fd2fb-6975-467f-b0f7-c26916833f27/configs/i4_startup-config.cfg
+2022-08-23 12:45:11 INFO web_log.py:206 ::1 [23/Aug/2022:17:45:11 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/030fd2fb-6975-467f-b0f7-c26916833f27/stop HTTP/1.1" 204 192 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:45:11 INFO router.py:328 Router "R5" [3277b48c-c049-44b7-8aa5-2017b55f596b] has been stopped
+2022-08-23 12:45:11 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/3277b48c-c049-44b7-8aa5-2017b55f596b/configs/i5_startup-config.cfg
+2022-08-23 12:45:11 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:45:11 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/3277b48c-c049-44b7-8aa5-2017b55f596b/stop HTTP/1.1" 204 192 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:45:11 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:45:11 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ethernet_switch/nodes/78483ac3-4c47-4cff-9e56-90cdccc4e234/stop HTTP/1.1" 204 199 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:45:11 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:45:11 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/ethernet_switch/nodes/a2da4074-243f-467d-aea5-ba0a20a23e31/stop HTTP/1.1" 204 199 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:45:11 INFO base_node.py:677 Stopping uBridge hypervisor localhost:38917
+2022-08-23 12:45:11 INFO hypervisor.py:208 Stopping uBridge process PID=1973
+2022-08-23 12:45:11 INFO router.py:328 Router "R6" [3152e2be-5e04-4e8a-9a1f-d4f6844910b9] has been stopped
+2022-08-23 12:45:11 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/3152e2be-5e04-4e8a-9a1f-d4f6844910b9/configs/i6_startup-config.cfg
+2022-08-23 12:45:11 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:45:11 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/3152e2be-5e04-4e8a-9a1f-d4f6844910b9/stop HTTP/1.1" 204 192 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:45:12 INFO router.py:328 Router "R7" [6348577c-568b-4f2a-abd1-14873ee0f8fe] has been stopped
+2022-08-23 12:45:12 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/6348577c-568b-4f2a-abd1-14873ee0f8fe/configs/i7_startup-config.cfg
+2022-08-23 12:45:12 INFO web_log.py:206 ::1 [23/Aug/2022:17:45:11 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/6348577c-568b-4f2a-abd1-14873ee0f8fe/stop HTTP/1.1" 204 192 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:45:12 INFO router.py:328 Router "R8" [c5c26b06-425b-445d-9d94-f1e06faa9104] has been stopped
+2022-08-23 12:45:12 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/c5c26b06-425b-445d-9d94-f1e06faa9104/configs/i8_startup-config.cfg
+2022-08-23 12:45:12 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:45:11 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/c5c26b06-425b-445d-9d94-f1e06faa9104/stop HTTP/1.1" 204 192 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:45:12 INFO base_node.py:677 Stopping uBridge hypervisor localhost:43045
+2022-08-23 12:45:12 INFO hypervisor.py:208 Stopping uBridge process PID=1995
+2022-08-23 12:45:12 INFO vpcs_vm.py:308 Stopping VPCS instance PC6 PID=1987
+2022-08-23 12:45:12 INFO router.py:328 Router "R9" [b670d4f3-b43a-4734-923e-24d356f1798c] has been stopped
+2022-08-23 12:45:12 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/b670d4f3-b43a-4734-923e-24d356f1798c/configs/i9_startup-config.cfg
+2022-08-23 12:45:12 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:45:12 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/dynamips/nodes/b670d4f3-b43a-4734-923e-24d356f1798c/stop HTTP/1.1" 204 192 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:45:12 INFO vpcs_vm.py:262 VPCS process has stopped, return code: 0
+2022-08-23 12:45:12 INFO web_log.py:206 ::1 [23/Aug/2022:17:45:12 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes/50b8fd0a-d7da-41d5-af8a-8a79fa61753f/stop HTTP/1.1" 204 188 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:45:12 INFO vpcs_vm.py:308 Stopping VPCS instance PC5 PID=1965
+2022-08-23 12:45:12 INFO vpcs_vm.py:262 VPCS process has stopped, return code: 0
+2022-08-23 12:45:12 INFO web_log.py:206 ::1 [23/Aug/2022:17:45:11 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/vpcs/nodes/95e8fb55-bcdf-46f4-b717-49df6ef8c907/stop HTTP/1.1" 204 188 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:45:12 INFO base_node.py:331 VPCS: 'PC4' [924d5398-282d-4b4b-9987-adedd9ae1cde]: is closing
+2022-08-23 12:45:12 INFO base_node.py:331 Dynamips: 'R5' [3277b48c-c049-44b7-8aa5-2017b55f596b]: is closing
+2022-08-23 12:45:12 INFO base_node.py:331 Dynamips: 'R2' [38525c4f-fe23-4fd1-ba1f-9236db4d64c4]: is closing
+2022-08-23 12:45:12 INFO base_node.py:331 VPCS: 'PC2' [0785ce4e-107e-4e16-9cbc-dc8d8e8f6174]: is closing
+2022-08-23 12:45:12 INFO base_node.py:331 Dynamips: 'R8' [c5c26b06-425b-445d-9d94-f1e06faa9104]: is closing
+2022-08-23 12:45:12 INFO base_node.py:331 Dynamips: 'R1' [ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39]: is closing
+2022-08-23 12:45:12 INFO base_node.py:331 VPCS: 'PC1' [0e18abe4-11cc-4105-a05d-ec4672fb1675]: is closing
+2022-08-23 12:45:12 INFO base_node.py:331 VPCS: 'PC5' [95e8fb55-bcdf-46f4-b717-49df6ef8c907]: is closing
+2022-08-23 12:45:12 INFO base_node.py:331 VPCS: 'PC6' [50b8fd0a-d7da-41d5-af8a-8a79fa61753f]: is closing
+2022-08-23 12:45:12 INFO base_node.py:331 Dynamips: 'R3' [0efe7b17-ead9-447c-8279-b124328e14b4]: is closing
+2022-08-23 12:45:12 INFO base_node.py:331 Dynamips: 'R9' [b670d4f3-b43a-4734-923e-24d356f1798c]: is closing
+2022-08-23 12:45:12 INFO base_node.py:331 Dynamips: 'R6' [3152e2be-5e04-4e8a-9a1f-d4f6844910b9]: is closing
+2022-08-23 12:45:12 INFO base_node.py:331 Dynamips: 'R7' [6348577c-568b-4f2a-abd1-14873ee0f8fe]: is closing
+2022-08-23 12:45:12 INFO base_node.py:331 Dynamips: 'R4' [030fd2fb-6975-467f-b0f7-c26916833f27]: is closing
+2022-08-23 12:45:12 INFO base_node.py:331 VPCS: 'PC3' [7ec8bffb-57b6-416c-86d7-e909cbecf5db]: is closing
+2022-08-23 12:45:12 INFO base_node.py:677 Stopping uBridge hypervisor localhost:40777
+2022-08-23 12:45:12 INFO hypervisor.py:208 Stopping uBridge process PID=1609
+2022-08-23 12:45:12 INFO base_node.py:677 Stopping uBridge hypervisor localhost:42513
+2022-08-23 12:45:12 INFO hypervisor.py:208 Stopping uBridge process PID=1593
+2022-08-23 12:45:12 INFO base_node.py:677 Stopping uBridge hypervisor localhost:41713
+2022-08-23 12:45:12 INFO hypervisor.py:208 Stopping uBridge process PID=1659
+2022-08-23 12:45:12 INFO base_node.py:677 Stopping uBridge hypervisor localhost:46783
+2022-08-23 12:45:12 INFO hypervisor.py:208 Stopping uBridge process PID=1584
+2022-08-23 12:45:12 INFO base_node.py:677 Stopping uBridge hypervisor localhost:41927
+2022-08-23 12:45:12 INFO hypervisor.py:208 Stopping uBridge process PID=1602
+2022-08-23 12:45:12 INFO base_node.py:677 Stopping uBridge hypervisor localhost:40495
+2022-08-23 12:45:12 INFO hypervisor.py:208 Stopping uBridge process PID=1649
+2022-08-23 12:45:12 INFO base_node.py:677 Stopping uBridge hypervisor localhost:41905
+2022-08-23 12:45:12 INFO hypervisor.py:208 Stopping uBridge process PID=1616
+2022-08-23 12:45:12 INFO base_node.py:677 Stopping uBridge hypervisor localhost:34361
+2022-08-23 12:45:12 INFO hypervisor.py:208 Stopping uBridge process PID=1623
+2022-08-23 12:45:12 INFO base_node.py:677 Stopping uBridge hypervisor localhost:44065
+2022-08-23 12:45:12 INFO hypervisor.py:208 Stopping uBridge process PID=1636
+2022-08-23 12:45:12 INFO ethernet_switch.py:252 Ethernet switch "Switch3" [78483ac3-4c47-4cff-9e56-90cdccc4e234] has been deleted
+2022-08-23 12:45:12 INFO hypervisor.py:148 Stopping Dynamips process PID=1518
+2022-08-23 12:45:12 INFO ethernet_switch.py:252 Ethernet switch "Switch4" [a2da4074-243f-467d-aea5-ba0a20a23e31] has been deleted
+2022-08-23 12:45:12 INFO hypervisor.py:148 Stopping Dynamips process PID=1534
+2022-08-23 12:45:12 INFO ethernet_switch.py:252 Ethernet switch "Switch2" [3ebfc551-f2e4-468e-a359-aec243e6ec6c] has been deleted
+2022-08-23 12:45:12 INFO hypervisor.py:148 Stopping Dynamips process PID=1390
+2022-08-23 12:45:12 INFO ethernet_switch.py:252 Ethernet switch "Switch1" [814eef4e-dc63-432f-8ef6-f0bdb6f55462] has been deleted
+2022-08-23 12:45:12 INFO hypervisor.py:148 Stopping Dynamips process PID=1374
+2022-08-23 12:45:12 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/3152e2be-5e04-4e8a-9a1f-d4f6844910b9/configs/i6_startup-config.cfg
+2022-08-23 12:45:12 INFO hypervisor.py:148 Stopping Dynamips process PID=1486
+2022-08-23 12:45:12 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/c5c26b06-425b-445d-9d94-f1e06faa9104/configs/i8_startup-config.cfg
+2022-08-23 12:45:12 INFO hypervisor.py:148 Stopping Dynamips process PID=1550
+2022-08-23 12:45:12 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/3277b48c-c049-44b7-8aa5-2017b55f596b/configs/i5_startup-config.cfg
+2022-08-23 12:45:12 INFO hypervisor.py:148 Stopping Dynamips process PID=1470
+2022-08-23 12:45:12 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/030fd2fb-6975-467f-b0f7-c26916833f27/configs/i4_startup-config.cfg
+2022-08-23 12:45:12 INFO hypervisor.py:148 Stopping Dynamips process PID=1454
+2022-08-23 12:45:12 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/6348577c-568b-4f2a-abd1-14873ee0f8fe/configs/i7_startup-config.cfg
+2022-08-23 12:45:12 INFO hypervisor.py:148 Stopping Dynamips process PID=1502
+2022-08-23 12:45:12 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/ec9fd7e7-8b6b-4461-8ab4-be47cc98aa39/configs/i1_startup-config.cfg
+2022-08-23 12:45:12 INFO hypervisor.py:148 Stopping Dynamips process PID=1406
+2022-08-23 12:45:12 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/b670d4f3-b43a-4734-923e-24d356f1798c/configs/i9_startup-config.cfg
+2022-08-23 12:45:12 INFO hypervisor.py:148 Stopping Dynamips process PID=1566
+2022-08-23 12:45:12 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/0efe7b17-ead9-447c-8279-b124328e14b4/configs/i3_startup-config.cfg
+2022-08-23 12:45:12 INFO hypervisor.py:148 Stopping Dynamips process PID=1438
+2022-08-23 12:45:12 INFO router.py:1599 saving startup-config to /home/h4ck4u/GNS3/projects/proyect_final/project-files/dynamips/38525c4f-fe23-4fd1-ba1f-9236db4d64c4/configs/i2_startup-config.cfg
+2022-08-23 12:45:12 INFO hypervisor.py:148 Stopping Dynamips process PID=1422
+2022-08-23 12:45:13 INFO project.py:361 Project 636dee39-38f5-48a7-aabe-bb77f9c8db29 with path '/home/h4ck4u/GNS3/projects/proyect_final' closed
+2022-08-23 12:45:13 INFO web_log.py:206 127.0.0.1 [23/Aug/2022:17:45:12 +0000] "POST /v2/compute/projects/636dee39-38f5-48a7-aabe-bb77f9c8db29/close HTTP/1.1" 204 168 "-" "Python/3.10 aiohttp/3.8.1"
+2022-08-23 12:45:13 INFO web_log.py:206 ::1 [23/Aug/2022:17:45:11 +0000] "POST /v2/shutdown HTTP/1.1" 201 197 "-" "GNS3 QT Client v2.2.33.1"
+2022-08-23 12:45:13 INFO web_server.py:113 Closing 2 websocket connections...
+2022-08-23 12:45:13 INFO compute.py:460 Connection closed to compute 'local' WebSocket 'http://localhost:3080/v2/compute/notifications/ws'
+2022-08-23 12:45:13 INFO project_handler.py:281 Client has disconnected from notification stream for project ID '636dee39-38f5-48a7-aabe-bb77f9c8db29' (WebSocket method)
+2022-08-23 12:45:13 INFO notification_handler.py:59 Client has disconnected from compute WebSocket
+2022-08-23 12:45:13 INFO __init__.py:138 Controller is stopping
+2022-08-23 12:45:13 INFO run.py:272 Remove PID file /home/h4ck4u/.config/GNS3/2.2/gns3_server.pid

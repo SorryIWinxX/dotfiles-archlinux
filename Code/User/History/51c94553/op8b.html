@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set interval in JS</title>
+</head>
+<body id="bodyTag">
+    <h2>setInterval function</h2>
+
+    <div id="textArea">
+        time in seconds: <span id="seconds">
+
+        </span>
+    </div>
+
+    <script>
+        function display(empName, empDept) {
+            console.log("Name: " + empName + " & Department: " + empDept );
+
+        }
+
+        //display("jhon", "phy");
+       // display("peter", "chemistry");
+
+        //setInterval(display,2000);
+
+        let count = 0;
+        setInterval(function(){
+            count++;
+            document.querySelector('#seconds').innerHTML  = count;
+            document.querySelector('#textArea').style.background="skyblue"
+        }, 1000)
+
+
+        let intervalId = setInterval(display,1000,"jhon","phy");
+        console.log(`interval id is: ${intervalId}`)
+
+        //clearTimeout(timeoutId);
+    </script>
+</body>
+</html>

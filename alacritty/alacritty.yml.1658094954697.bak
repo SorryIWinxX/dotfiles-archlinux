@@ -1,0 +1,66 @@
+# Shades of Purple Alacritty
+# https://github.com/ahmadawais/shades-of-purple-alacritty
+
+# Colors
+colors:
+  primary:
+    background: '#191c25'
+    foreground: '#b5b4c9'
+  normal:
+    black: '#2e313d'
+    red: '#cf8164'
+    green: '#76a065'
+    yellow: '#ab924c'
+    blue: '#8296b0'
+    magenta: '#a18daf'
+    cyan: '#659ea2'
+    white: '#b5b4c9'
+  bright:
+    black: '#5b5f71'
+    red: '#fe9f7c'
+    green: '#92c47e'
+    yellow: '#d2b45f'
+    blue: '#a0b9d8'
+    magenta: '#c6aed7'
+    cyan: '#7dc2c7'
+    white: '#f0ecfe'
+font:
+  normal:
+    family: Hack Nerd Font
+    style: Regular
+  bold:
+    family: Hack Nerd Font
+    style: Bold
+  italic:
+    family: Hack Nerd Font
+    style: Italic
+  bold_italic:
+    family: Hack Nerd Font
+    style: Bold Italic
+  size: 12.0
+  use_thin_strokes: true
+
+window:
+  opacity: 0.7
+cursor:
+  # Cursor style
+  style:
+    # Cursor shape
+    #
+    # Values for `shape`:
+    #   - ▇ Block
+    #   - _ Underline
+    #   - | Beam
+    shape: Beam
+
+    # Cursor blinking state
+    #
+    # Values for `blinking`:
+    #   - Never: Prevent the cursor from ever blinking
+    #   - Off: Disable blinking by default
+    #   - On: Enable blinking by default
+    #   - Always: Force the cursor to always blink
+    blinking: Always
+    blink_interval: 350
+    unfocused_hollow: false
+theme: Substrata
